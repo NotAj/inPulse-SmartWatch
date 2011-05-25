@@ -1,0 +1,2649 @@
+Archive member included because of file (symbol)
+
+/home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_divsi3.o)
+                              /tmp/ccTGWpMO.o (__aeabi_idivmod)
+/home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_dvmd_tls.o)
+                              /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_divsi3.o) (__aeabi_idiv0)
+lib/libkernel.a(uart.o)       lib/obj/irq.o (bt_uart_irq)
+lib/libkernel.a(timer.o)      lib/libkernel.a(uart.o) (mdelay)
+lib/libkernel.a(watchdog.o)   lib/libkernel.a(uart.o) (cli)
+lib/libkernel.a(printf.o)     /tmp/ccTGWpMO.o (printf)
+lib/libkernel.a(font.o)       lib/libkernel.a(printf.o) (puts)
+lib/libkernel.a(oled.o)       lib/libkernel.a(font.o) (oled_set_xy)
+lib/libpulse_os.a(display.o)  /tmp/ccTGWpMO.o (pulse_draw_point24)
+lib/libpulse_os.a(resource.o)
+                              lib/libpulse_os.a(display.o) (get_resource_metadata)
+lib/libpulse_os.a(timer.o)    /tmp/ccTGWpMO.o (pulse_register_timer)
+lib/libpulse_os.a(main.o)     lib/obj/kernel_struct.o (main)
+lib/libpulse_os.a(alarm.o)    lib/libpulse_os.a(main.o) (pulse_get_alarm)
+lib/libpulse_os.a(battery_log.o)
+                              lib/libpulse_os.a(main.o) (battery_log_get_battery_life)
+lib/libpulse_os.a(notification.o)
+                              lib/libpulse_os.a(main.o) (notification_init)
+lib/libpulse_os.a(clock.o)    lib/libpulse_os.a(main.o) (pulse_get_time_date)
+lib/libpulse_os.a(preferences.o)
+                              lib/libpulse_os.a(main.o) (pulse_get_preference)
+lib/libpulse_protocol.a(pp_dispatcher.o)
+                              lib/libpulse_os.a(main.o) (pp_dispatcher)
+lib/libpulse_protocol.a(pulse_protocol.o)
+                              lib/libpulse_protocol.a(pp_dispatcher.o) (pp_decode_message)
+/home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_udivsi3.o)
+                              lib/libpulse_os.a(battery_log.o) (__aeabi_uidivmod)
+lib/libbtstack.a(init_bc4.o)  lib/libkernel.a(uart.o) (bc4_is_up)
+lib/libbtstack.a(ubcsp.o)     lib/libbtstack.a(init_bc4.o) (ubcsp_initialize)
+lib/libbtstack.a(l2cap.o)     lib/libbtstack.a(init_bc4.o) (l2cap_register_event_packet_handler)
+lib/libbtstack.a(hci_transport_bcsp.o)
+                              lib/libbtstack.a(init_bc4.o) (hci_transport_bcsp_instance)
+lib/libbtstack.a(run_loop.o)  lib/libbtstack.a(hci_transport_bcsp.o) (run_loop_add_data_source)
+lib/libbtstack.a(hci.o)       lib/libbtstack.a(l2cap.o) (connection_for_handle)
+lib/libbtstack.a(utils.o)     lib/libbtstack.a(l2cap.o) (bt_store_16)
+lib/libbtstack.a(run_loop_embedded.o)
+                              lib/libbtstack.a(run_loop.o) (run_loop_embedded)
+lib/libbtstack.a(hci_cmds.o)  lib/libbtstack.a(hci.o) (hci_create_cmd_internal)
+lib/libbtstack.a(hci_dump.o)  lib/libbtstack.a(l2cap.o) (hci_dump_packet)
+lib/libbtstack.a(linked_list.o)
+                              lib/libbtstack.a(l2cap.o) (linked_list_add)
+lib/libbtstack.a(l2cap_signaling.o)
+                              lib/libbtstack.a(l2cap.o) (l2cap_next_sig_id)
+lib/libbtstack.a(btstack.o)   lib/libbtstack.a(hci_transport_bcsp.o) (btstack_wtf)
+lib/libbtstack.a(socket_connection_embedded.o)
+                              lib/libbtstack.a(btstack.o) (socket_connection_register_packet_callback)
+lib/libkernel.a(battery.o)    lib/libpulse_os.a(main.o) (pulse_battery_get_charge_state)
+lib/libkernel.a(bt.o)         lib/libpulse_os.a(main.o) (register_bt_data_handler)
+lib/libkernel.a(linkkey_ps.o)
+                              lib/libkernel.a(bt.o) (bt_put_link_key)
+lib/libkernel.a(button.o)     lib/libpulse_os.a(main.o) (button_init)
+lib/libkernel.a(kernel.o)     lib/libkernel.a(bt.o) (kernel_wtf)
+lib/libkernel.a(mem.o)        lib/libpulse_os.a(timer.o) (memset)
+lib/libkernel.a(rtc.o)        lib/libpulse_os.a(main.o) (rtc_set_alarm)
+lib/libkernel.a(spiflash.o)   lib/libpulse_os.a(main.o) (_spi_xfer)
+lib/libkernel.a(vibe.o)       lib/libpulse_os.a(main.o) (vibe_on)
+
+Allocating common symbols
+Common symbol       size              file
+
+last_image_meta     0x8               lib/libpulse_os.a(display.o)
+button_start_time   0x4               lib/libpulse_os.a(main.o)
+active_alert        0xc               lib/libpulse_os.a(main.o)
+bt_tx_level         0x4               lib/libkernel.a(uart.o)
+bt_lsr_err          0x4               lib/libkernel.a(uart.o)
+static_resp_int     0x4               lib/libpulse_os.a(main.o)
+registeredActionCallbacks
+                    0x14              lib/libpulse_os.a(main.o)
+current_charge_state
+                    0x1               lib/libpulse_os.a(battery_log.o)
+activeAlarm         0x3c              lib/libpulse_os.a(alarm.o)
+bt_rx_hwm           0x4               lib/libkernel.a(uart.o)
+time_string         0x5               lib/libkernel.a(rtc.o)
+last_charge_state   0x1               lib/libpulse_os.a(battery_log.o)
+bt_tx_hwm           0x4               lib/libkernel.a(uart.o)
+last_event_num      0x1               lib/libpulse_os.a(battery_log.o)
+batt_life           0x2               lib/libpulse_os.a(battery_log.o)
+minOfLastAlarmCheck
+                    0x2               lib/libpulse_os.a(main.o)
+draw_top            0x1               lib/libpulse_os.a(main.o)
+alarm_string        0x6               lib/libpulse_os.a(alarm.o)
+bt_rx_level         0x4               lib/libkernel.a(uart.o)
+bt_lsr_copy         0x4               lib/libkernel.a(uart.o)
+draw_date           0x1               lib/libpulse_os.a(main.o)
+cid                 0x2               lib/libpulse_os.a(main.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crti.o
+ .data          0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crti.o
+ .bss           0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crti.o
+ .init          0x00000000        0x4 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crti.o
+ .fini          0x00000000        0x4 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crti.o
+ .text          0x00000000       0x40 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtbegin.o
+ .data          0x00000000        0x4 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtbegin.o
+ .bss           0x00000000        0x1 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtbegin.o
+ .init_array    0x00000000        0x4 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtbegin.o
+ .fini_array    0x00000000        0x4 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtbegin.o
+ .jcr           0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtbegin.o
+ .text          0x00000000        0x0 lib/obj/irq.o
+ .data          0x00000000        0x0 lib/obj/irq.o
+ .bss           0x00000000        0x0 lib/obj/irq.o
+ .text          0x00000000        0x0 lib/obj/kernel_struct.o
+ .data          0x00000000        0x0 lib/obj/kernel_struct.o
+ .bss           0x00000000        0x0 lib/obj/kernel_struct.o
+ .text          0x00000000        0x0 /tmp/ccTGWpMO.o
+ .data          0x00000000        0x0 /tmp/ccTGWpMO.o
+ .bss           0x00000000        0x0 /tmp/ccTGWpMO.o
+ .data          0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 lib/libkernel.a(uart.o)
+ .data          0x00000000        0x0 lib/libkernel.a(uart.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(uart.o)
+ .text.dbg_get_uart
+                0x00000000       0x24 lib/libkernel.a(uart.o)
+ .text.foo_func
+                0x00000000        0x2 lib/libkernel.a(uart.o)
+ .text          0x00000000        0x0 lib/libkernel.a(timer.o)
+ .data          0x00000000        0x0 lib/libkernel.a(timer.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(timer.o)
+ .text.timer_get_offset
+                0x00000000        0xc lib/libkernel.a(timer.o)
+ .text.timer_set_offset
+                0x00000000        0xc lib/libkernel.a(timer.o)
+ .text          0x00000000        0x0 lib/libkernel.a(watchdog.o)
+ .data          0x00000000        0x0 lib/libkernel.a(watchdog.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(watchdog.o)
+ .text.doze     0x00000000       0x12 lib/libkernel.a(watchdog.o)
+ .text.reset_was_wd
+                0x00000000       0x12 lib/libkernel.a(watchdog.o)
+ .text          0x00000000        0x0 lib/libkernel.a(printf.o)
+ .data          0x00000000        0x0 lib/libkernel.a(printf.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(printf.o)
+ .text          0x00000000        0x0 lib/libkernel.a(font.o)
+ .data          0x00000000        0x0 lib/libkernel.a(font.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(font.o)
+ .text          0x00000000        0x0 lib/libkernel.a(oled.o)
+ .data          0x00000000        0x0 lib/libkernel.a(oled.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(oled.o)
+ .text          0x00000000        0x0 lib/libpulse_os.a(display.o)
+ .data          0x00000000        0x0 lib/libpulse_os.a(display.o)
+ .bss           0x00000000        0x0 lib/libpulse_os.a(display.o)
+ .text.pulse_get_image_info
+                0x00000000       0x54 lib/libpulse_os.a(display.o)
+ .text.pulse_image_valid
+                0x00000000       0x2c lib/libpulse_os.a(display.o)
+ .text.pulse_blank_canvas
+                0x00000000        0xc lib/libpulse_os.a(display.o)
+ .text.pulse_draw_black_box
+                0x00000000       0x40 lib/libpulse_os.a(display.o)
+ .text.draw_image
+                0x00000000      0x13c lib/libpulse_os.a(display.o)
+ .text.pulse_draw_image
+                0x00000000       0x1c lib/libpulse_os.a(display.o)
+ .text.pulse_draw_image_with_transparency
+                0x00000000       0x16 lib/libpulse_os.a(display.o)
+ .rodata.COLOR_BLACK24
+                0x00000000        0x4 lib/libpulse_os.a(display.o)
+ .data.last_image_cache
+                0x00000000        0x2 lib/libpulse_os.a(display.o)
+ .rodata.COLOR_WHITE24
+                0x00000000        0x4 lib/libpulse_os.a(display.o)
+ COMMON         0x00000000        0x8 lib/libpulse_os.a(display.o)
+ .text          0x00000000        0x0 lib/libpulse_os.a(resource.o)
+ .data          0x00000000        0x0 lib/libpulse_os.a(resource.o)
+ .bss           0x00000000        0x0 lib/libpulse_os.a(resource.o)
+ .text.get_resource_metadata
+                0x00000000       0x2a lib/libpulse_os.a(resource.o)
+ .text          0x00000000        0x0 lib/libpulse_os.a(timer.o)
+ .data          0x00000000        0x0 lib/libpulse_os.a(timer.o)
+ .bss           0x00000000        0x0 lib/libpulse_os.a(timer.o)
+ .text.pulse_get_next_timer_timeout
+                0x00000000       0x28 lib/libpulse_os.a(timer.o)
+ .text.pulse_get_millis
+                0x00000000        0xc lib/libpulse_os.a(timer.o)
+ .text          0x00000000        0x0 lib/libpulse_os.a(main.o)
+ .data          0x00000000        0x0 lib/libpulse_os.a(main.o)
+ .bss           0x00000000        0x0 lib/libpulse_os.a(main.o)
+ .text.pulse_register_callback
+                0x00000000       0x14 lib/libpulse_os.a(main.o)
+ .text.os_allerta_main_app
+                0x00000000        0xc lib/libpulse_os.a(main.o)
+ .text.pulse_mdelay
+                0x00000000        0xc lib/libpulse_os.a(main.o)
+ .text.print_time
+                0x00000000       0x44 lib/libpulse_os.a(main.o)
+ .bss.size_of_firmware
+                0x00000000        0x4 lib/libpulse_os.a(main.o)
+ .bss.size_of_resources
+                0x00000000        0x4 lib/libpulse_os.a(main.o)
+ .text          0x00000000        0x0 lib/libpulse_os.a(alarm.o)
+ .data          0x00000000        0x0 lib/libpulse_os.a(alarm.o)
+ .bss           0x00000000        0x0 lib/libpulse_os.a(alarm.o)
+ .text.pulse_get_alarm_msg
+                0x00000000        0x8 lib/libpulse_os.a(alarm.o)
+ .text          0x00000000        0x0 lib/libpulse_os.a(battery_log.o)
+ .data          0x00000000        0x0 lib/libpulse_os.a(battery_log.o)
+ .bss           0x00000000        0x0 lib/libpulse_os.a(battery_log.o)
+ .text          0x00000000        0x0 lib/libpulse_os.a(notification.o)
+ .data          0x00000000        0x0 lib/libpulse_os.a(notification.o)
+ .bss           0x00000000        0x0 lib/libpulse_os.a(notification.o)
+ .text.populate_notification
+                0x00000000       0x18 lib/libpulse_os.a(notification.o)
+ .text.pulse_get_notification_list_by_type
+                0x00000000       0x1c lib/libpulse_os.a(notification.o)
+ .text.pulse_get_notification
+                0x00000000       0x34 lib/libpulse_os.a(notification.o)
+ .bss.notification
+                0x00000000       0x10 lib/libpulse_os.a(notification.o)
+ .text          0x00000000        0x0 lib/libpulse_os.a(clock.o)
+ .data          0x00000000        0x0 lib/libpulse_os.a(clock.o)
+ .bss           0x00000000        0x0 lib/libpulse_os.a(clock.o)
+ .text.pulse_get_time_string
+                0x00000000        0xc lib/libpulse_os.a(clock.o)
+ .text          0x00000000        0x0 lib/libpulse_os.a(preferences.o)
+ .data          0x00000000        0x0 lib/libpulse_os.a(preferences.o)
+ .bss           0x00000000        0x0 lib/libpulse_os.a(preferences.o)
+ .text.print_preferences
+                0x00000000       0x4c lib/libpulse_os.a(preferences.o)
+ .rodata.str1.1
+                0x00000000       0x23 lib/libpulse_os.a(preferences.o)
+ .text          0x00000000        0x0 lib/libpulse_protocol.a(pp_dispatcher.o)
+ .data          0x00000000        0x0 lib/libpulse_protocol.a(pp_dispatcher.o)
+ .bss           0x00000000        0x0 lib/libpulse_protocol.a(pp_dispatcher.o)
+ .text          0x00000000        0x0 lib/libpulse_protocol.a(pulse_protocol.o)
+ .data          0x00000000        0x0 lib/libpulse_protocol.a(pulse_protocol.o)
+ .bss           0x00000000        0x0 lib/libpulse_protocol.a(pulse_protocol.o)
+ .data          0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_udivsi3.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(init_bc4.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(init_bc4.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(init_bc4.o)
+ .text.read_bcsp
+                0x00000000       0x3c lib/libbtstack.a(init_bc4.o)
+ .text.bc4_get_rand
+                0x00000000       0x20 lib/libbtstack.a(init_bc4.o)
+ .text.bc4_get_anafreq
+                0x00000000       0x3c lib/libbtstack.a(init_bc4.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(ubcsp.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(ubcsp.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(ubcsp.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(l2cap.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(l2cap.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(l2cap.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(hci_transport_bcsp.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(hci_transport_bcsp.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(hci_transport_bcsp.o)
+ .text.bcsp_powerdown
+                0x00000000        0x2 lib/libbtstack.a(hci_transport_bcsp.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(run_loop.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(run_loop.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(run_loop.o)
+ .text.run_loop_assert
+                0x00000000        0x2 lib/libbtstack.a(run_loop.o)
+ .text.run_loop_timer_dump
+                0x00000000       0x1c lib/libbtstack.a(run_loop.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(hci.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(hci.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(hci.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(utils.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(utils.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(utils.o)
+ .text.bt_store_32
+                0x00000000       0x22 lib/libbtstack.a(utils.o)
+ .text.crc8     0x00000000       0x28 lib/libbtstack.a(utils.o)
+ .text.crc8_check
+                0x00000000       0x24 lib/libbtstack.a(utils.o)
+ .text.crc8_calc
+                0x00000000       0x12 lib/libbtstack.a(utils.o)
+ .text.sscan_bd_addr
+                0x00000000       0x30 lib/libbtstack.a(utils.o)
+ .text.print_bd_addr
+                0x00000000       0x2c lib/libbtstack.a(utils.o)
+ .text.hexdump  0x00000000       0x2c lib/libbtstack.a(utils.o)
+ .rodata.str1.1
+                0x00000000       0x13 lib/libbtstack.a(utils.o)
+ .rodata.crc8table
+                0x00000000      0x100 lib/libbtstack.a(utils.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(run_loop_embedded.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(run_loop_embedded.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(run_loop_embedded.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(hci_cmds.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(hci_cmds.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(hci_cmds.o)
+ .text.hci_create_cmd
+                0x00000000       0x18 lib/libbtstack.a(hci_cmds.o)
+ .rodata.btstack_get_version
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_switch_role_command
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.btstack_get_state
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_write_link_supervision_timeout
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_read_scan_enable
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_host_buffer_size
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_qos_setup
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_role_discovery
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_inquiry
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.l2cap_create_channel
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.l2cap_decline_connection
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.btstack_set_system_bluetooth_enabled
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_read_link_supervision_timeout
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_authentication_requested
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_write_inquiry_mode
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_read_link_policy_settings
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_set_event_mask
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.btstack_get_system_bluetooth_enabled
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_inquiry_cancel
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_write_simple_pairing_mode
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.btstack_set_acl_capture_mode
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.l2cap_unregister_service
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.l2cap_disconnect
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_write_link_key
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_write_extended_inquiry_response
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_remote_name_request_cancel
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_remote_name_request
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_delete_stored_link_key
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .rodata.hci_write_link_policy_settings
+                0x00000000        0x8 lib/libbtstack.a(hci_cmds.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(hci_dump.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(hci_dump.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(hci_dump.o)
+ .text.hci_dump_open
+                0x00000000        0x2 lib/libbtstack.a(hci_dump.o)
+ .text.hci_dump_close
+                0x00000000        0x2 lib/libbtstack.a(hci_dump.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(linked_list.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(linked_list.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(linked_list.o)
+ .text.test_linked_list
+                0x00000000       0x3e lib/libbtstack.a(linked_list.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(l2cap_signaling.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(l2cap_signaling.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(l2cap_signaling.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(btstack.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(btstack.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(btstack.o)
+ .text.bt_use_tcp
+                0x00000000       0x14 lib/libbtstack.a(btstack.o)
+ .text.bt_register_packet_handler
+                0x00000000       0x10 lib/libbtstack.a(btstack.o)
+ .text.bt_send_acl
+                0x00000000       0x20 lib/libbtstack.a(btstack.o)
+ .text.bt_send_l2cap
+                0x00000000       0x24 lib/libbtstack.a(btstack.o)
+ .text.bt_close
+                0x00000000       0x14 lib/libbtstack.a(btstack.o)
+ .text          0x00000000        0x0 lib/libbtstack.a(socket_connection_embedded.o)
+ .data          0x00000000        0x0 lib/libbtstack.a(socket_connection_embedded.o)
+ .bss           0x00000000        0x0 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_set_non_blocking
+                0x00000000        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_free_connection
+                0x00000000        0x2 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_init_statemachine
+                0x00000000        0x2 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_register_new_connection
+                0x00000000        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_hci_process
+                0x00000000        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_create_tcp
+                0x00000000        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_launchd_register_fd_array
+                0x00000000        0x2 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_create_launchd
+                0x00000000        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_create_unix
+                0x00000000        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_close_tcp
+                0x00000000        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_close_unix
+                0x00000000        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_open_null
+                0x00000000        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_close_null
+                0x00000000        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+ .text.socket_connection_send_packet_all
+                0x00000000        0x2 lib/libbtstack.a(socket_connection_embedded.o)
+ .text          0x00000000        0x0 lib/libkernel.a(battery.o)
+ .data          0x00000000        0x0 lib/libkernel.a(battery.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(battery.o)
+ .text          0x00000000        0x0 lib/libkernel.a(bt.o)
+ .data          0x00000000        0x0 lib/libkernel.a(bt.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(bt.o)
+ .text.bt_is_connected
+                0x00000000        0xc lib/libkernel.a(bt.o)
+ .text.get_serial_no
+                0x00000000        0x6 lib/libkernel.a(bt.o)
+ .text.bt_get_handle
+                0x00000000        0xc lib/libkernel.a(bt.o)
+ .text.bt_print_addr
+                0x00000000       0x3c lib/libkernel.a(bt.o)
+ .text.bt_disconnect
+                0x00000000       0x1c lib/libkernel.a(bt.o)
+ .bss.s.1814    0x00000000       0x14 lib/libkernel.a(bt.o)
+ .text          0x00000000        0x0 lib/libkernel.a(linkkey_ps.o)
+ .data          0x00000000        0x0 lib/libkernel.a(linkkey_ps.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(linkkey_ps.o)
+ .text          0x00000000        0x0 lib/libkernel.a(button.o)
+ .data          0x00000000        0x0 lib/libkernel.a(button.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(button.o)
+ .text          0x00000000        0x0 lib/libkernel.a(kernel.o)
+ .data          0x00000000        0x0 lib/libkernel.a(kernel.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(kernel.o)
+ .text          0x00000000        0x0 lib/libkernel.a(mem.o)
+ .data          0x00000000        0x0 lib/libkernel.a(mem.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(mem.o)
+ .text          0x00000000        0x0 lib/libkernel.a(rtc.o)
+ .data          0x00000000        0x0 lib/libkernel.a(rtc.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(rtc.o)
+ .text.rtc_clear_alarm
+                0x00000000       0x18 lib/libkernel.a(rtc.o)
+ .text.get_rtc_minute
+                0x00000000        0x4 lib/libkernel.a(rtc.o)
+ .text.get_rtc_hour
+                0x00000000        0x4 lib/libkernel.a(rtc.o)
+ .text.rtc_get_time_string
+                0x00000000       0x48 lib/libkernel.a(rtc.o)
+ .rodata.RTC_MAGIC
+                0x00000000        0x4 lib/libkernel.a(rtc.o)
+ .rodata.str1.1
+                0x00000000        0x8 lib/libkernel.a(rtc.o)
+ COMMON         0x00000000        0x5 lib/libkernel.a(rtc.o)
+ .text          0x00000000        0x0 lib/libkernel.a(spiflash.o)
+ .data          0x00000000        0x0 lib/libkernel.a(spiflash.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(spiflash.o)
+ .text.spiflash_setstatus
+                0x00000000       0x24 lib/libkernel.a(spiflash.o)
+ .text.spiflash_getid
+                0x00000000       0x30 lib/libkernel.a(spiflash.o)
+ .text.spiflash_copy
+                0x00000000       0x46 lib/libkernel.a(spiflash.o)
+ .text.spiflash_erase_chip
+                0x00000000       0x12 lib/libkernel.a(spiflash.o)
+ .text.spiflash_erase_block
+                0x00000000       0x1c lib/libkernel.a(spiflash.o)
+ .text          0x00000000        0x0 lib/libkernel.a(vibe.o)
+ .data          0x00000000        0x0 lib/libkernel.a(vibe.o)
+ .bss           0x00000000        0x0 lib/libkernel.a(vibe.o)
+ .text.vibe_triplet
+                0x00000000       0x44 lib/libkernel.a(vibe.o)
+ .text.vibe_single
+                0x00000000       0x16 lib/libkernel.a(vibe.o)
+ .text.vibe_double
+                0x00000000       0x16 lib/libkernel.a(vibe.o)
+ .text          0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtend.o
+ .data          0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtend.o
+ .bss           0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtend.o
+ .jcr           0x00000000        0x4 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtend.o
+ .text          0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtn.o
+ .data          0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtn.o
+ .bss           0x00000000        0x0 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtn.o
+ .init          0x00000000        0x8 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtn.o
+ .fini          0x00000000        0x8 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x00001000         0x00007000
+ram              0x40000000         0x00002000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crti.o
+LOAD /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtbegin.o
+START GROUP
+LOAD lib/libapp_common.a
+LOAD lib/libbtstack.a
+LOAD lib/libdebug.a
+LOAD lib/libkernel.a
+LOAD lib/libpulse_os.a
+LOAD lib/libpulse_protocol.a
+LOAD lib/libpulse_widgets.a
+LOAD lib/obj/irq.o
+LOAD lib/obj/kernel_struct.o
+LOAD /tmp/ccTGWpMO.o
+LOAD /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a
+END GROUP
+START GROUP
+LOAD /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a
+LOAD /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb/libc.a
+END GROUP
+LOAD /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtend.o
+LOAD /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtn.o
+                0x40001fdc                _stack_end = 0x40001fdc
+                0x00000000                . = 0x0
+                0x00000000                . = ALIGN (0x4)
+
+kernel_struct   0x00001000       0x34
+ *(.kernel_struct)
+ .kernel_struct
+                0x00001000       0x34 lib/obj/kernel_struct.o
+                0x00001000                kernel_struct
+
+.text           0x00001034     0x5ab1
+ *(.text.main)
+ .text.main     0x00001034       0xb8 lib/libpulse_os.a(main.o)
+                0x00001034                main
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.inpulse_irq
+                0x000010ec       0x34 lib/obj/irq.o
+                0x000010ec                inpulse_irq
+ .text.main_app_loop
+                0x00001120        0x2 /tmp/ccTGWpMO.o
+                0x00001120                main_app_loop
+ .text.main_app_handle_doz
+                0x00001122        0x2 /tmp/ccTGWpMO.o
+                0x00001122                main_app_handle_doz
+ .text.main_app_handle_hardware_update
+                0x00001124        0x2 /tmp/ccTGWpMO.o
+                0x00001124                main_app_handle_hardware_update
+ .text.draw_box
+                0x00001126       0x34 /tmp/ccTGWpMO.o
+                0x00001126                draw_box
+ *fill*         0x0000115a        0x2 00
+ .text.draw_box_update_timer
+                0x0000115c       0x48 /tmp/ccTGWpMO.o
+                0x0000115c                draw_box_update_timer
+ .text.main_app_init
+                0x000011a4        0xe /tmp/ccTGWpMO.o
+                0x000011a4                main_app_init
+ *fill*         0x000011b2        0x2 00
+ .text.main_app_handle_button_up
+                0x000011b4       0x14 /tmp/ccTGWpMO.o
+                0x000011b4                main_app_handle_button_up
+ .text.main_app_handle_button_down
+                0x000011c8       0x14 /tmp/ccTGWpMO.o
+                0x000011c8                main_app_handle_button_down
+ .text          0x000011dc      0x150 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_divsi3.o)
+                0x000011dc                __aeabi_idiv
+                0x000011dc                __divsi3
+                0x0000130c                __aeabi_idivmod
+ .text          0x0000132c        0x4 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_dvmd_tls.o)
+                0x0000132c                __aeabi_ldiv0
+                0x0000132c                __aeabi_idiv0
+ .text.dbg_putc
+                0x00001330       0x24 lib/libkernel.a(uart.o)
+                0x00001330                dbg_putc
+ .text.dbg_puts
+                0x00001354       0x1c lib/libkernel.a(uart.o)
+                0x00001354                dbg_puts
+ .text.bt_pop_fifo
+                0x00001370       0x3c lib/libkernel.a(uart.o)
+ .text.uart_hw_init
+                0x000013ac       0x8c lib/libkernel.a(uart.o)
+                0x000013ac                uart_hw_init
+ .text.uart_init
+                0x00001438       0x7c lib/libkernel.a(uart.o)
+                0x00001438                uart_init
+ .text.bt_uart_irq_enable
+                0x000014b4       0x1c lib/libkernel.a(uart.o)
+                0x000014b4                bt_uart_irq_enable
+ .text.bt_uart_irq
+                0x000014d0       0xd4 lib/libkernel.a(uart.o)
+                0x000014d0                bt_uart_irq
+ .text.bt_send_break
+                0x000015a4       0x24 lib/libkernel.a(uart.o)
+                0x000015a4                bt_send_break
+ .text.put_uart
+                0x000015c8       0x7c lib/libkernel.a(uart.o)
+                0x000015c8                put_uart
+ .text.get_uart
+                0x00001644       0x6c lib/libkernel.a(uart.o)
+                0x00001644                get_uart
+ .text.vic_init
+                0x000016b0       0x12 lib/libkernel.a(timer.o)
+                0x000016b0                vic_init
+ .text.timer_init
+                0x000016c2       0x12 lib/libkernel.a(timer.o)
+                0x000016c2                timer_init
+ .text.timer_get_ms
+                0x000016d4       0x20 lib/libkernel.a(timer.o)
+                0x000016d4                timer_get_ms
+ .text.mdelay   0x000016f4       0x20 lib/libkernel.a(timer.o)
+                0x000016f4                mdelay
+ .text.cli      0x00001714       0x12 lib/libkernel.a(watchdog.o)
+                0x00001714                cli
+ .text.sti      0x00001726       0x12 lib/libkernel.a(watchdog.o)
+                0x00001726                sti
+ .text.powerctl_init
+                0x00001738       0x12 lib/libkernel.a(watchdog.o)
+                0x00001738                powerctl_init
+ .text.wd_feed  0x0000174a       0x12 lib/libkernel.a(watchdog.o)
+                0x0000174a                wd_feed
+ .text.wd_force_reset
+                0x0000175c        0xc lib/libkernel.a(watchdog.o)
+                0x0000175c                wd_force_reset
+ .text.reset    0x00001768       0x24 lib/libkernel.a(watchdog.o)
+                0x00001768                reset
+ .text.isdigit  0x0000178c        0xe lib/libkernel.a(printf.o)
+ .text.skip_atou
+                0x0000179a       0x2c lib/libkernel.a(printf.o)
+                0x0000179a                skip_atou
+ *fill*         0x000017c6        0x2 00
+ .text.number   0x000017c8      0x1c8 lib/libkernel.a(printf.o)
+ .text.vsprintf
+                0x00001990      0x23e lib/libkernel.a(printf.o)
+                0x00001990                vsprintf
+ .text.sprintf  0x00001bce       0x18 lib/libkernel.a(printf.o)
+                0x00001bce                sprintf
+ .text.dbg_printf
+                0x00001be6       0x28 lib/libkernel.a(printf.o)
+                0x00001be6                dbg_printf
+ .text.printf   0x00001c0e       0x28 lib/libkernel.a(printf.o)
+                0x00001c0e                printf
+ *fill*         0x00001c36        0x2 00
+ .text.font_setpos
+                0x00001c38       0x14 lib/libkernel.a(font.o)
+                0x00001c38                font_setpos
+ .text.cursor_home
+                0x00001c4c       0x10 lib/libkernel.a(font.o)
+ .text.font_init
+                0x00001c5c       0x1c lib/libkernel.a(font.o)
+                0x00001c5c                font_init
+ .text.cursor_next_line
+                0x00001c78       0x24 lib/libkernel.a(font.o)
+ .text.cls      0x00001c9c       0x10 lib/libkernel.a(font.o)
+                0x00001c9c                cls
+ .text._drawchar
+                0x00001cac       0xb8 lib/libkernel.a(font.o)
+                0x00001cac                _drawchar
+ .text.putc     0x00001d64       0x4c lib/libkernel.a(font.o)
+                0x00001d64                putc
+ .text.puts     0x00001db0       0x1c lib/libkernel.a(font.o)
+                0x00001db0                puts
+ .text.oled_init
+                0x00001dcc       0x12 lib/libkernel.a(oled.o)
+                0x00001dcc                oled_init
+ .text.oled_ctl
+                0x00001dde       0x12 lib/libkernel.a(oled.o)
+                0x00001dde                oled_ctl
+ .text.oled_set_xy
+                0x00001df0       0x12 lib/libkernel.a(oled.o)
+                0x00001df0                oled_set_xy
+ .text.oled_prep_display
+                0x00001e02       0x12 lib/libkernel.a(oled.o)
+                0x00001e02                oled_prep_display
+ .text.oled_cls
+                0x00001e14       0x12 lib/libkernel.a(oled.o)
+                0x00001e14                oled_cls
+ .text.oled_write
+                0x00001e26       0x12 lib/libkernel.a(oled.o)
+                0x00001e26                oled_write
+ .text.pulse_oled_set_brightness
+                0x00001e38       0x26 lib/libkernel.a(oled.o)
+                0x00001e38                pulse_oled_set_brightness
+ .text.pulse_draw_point24
+                0x00001e5e       0x2e lib/libpulse_os.a(display.o)
+                0x00001e5e                pulse_draw_point24
+ .text.pulse_set_draw_window
+                0x00001e8c        0xc lib/libpulse_os.a(display.o)
+                0x00001e8c                pulse_set_draw_window
+ .text.find_free_timer
+                0x00001e98       0x20 lib/libpulse_os.a(timer.o)
+                0x00001e98                find_free_timer
+ .text.pulse_cancel_timer
+                0x00001eb8       0x20 lib/libpulse_os.a(timer.o)
+                0x00001eb8                pulse_cancel_timer
+ .text.pulse_timer_init
+                0x00001ed8       0x18 lib/libpulse_os.a(timer.o)
+                0x00001ed8                pulse_timer_init
+ .text.pulse_timer_loop
+                0x00001ef0       0x38 lib/libpulse_os.a(timer.o)
+                0x00001ef0                pulse_timer_loop
+ .text.pulse_register_timer
+                0x00001f28       0x40 lib/libpulse_os.a(timer.o)
+                0x00001f28                pulse_register_timer
+ .text._spi_select
+                0x00001f68       0x1c lib/libpulse_os.a(main.o)
+ .text.os_fire_callback
+                0x00001f84       0x24 lib/libpulse_os.a(main.o)
+                0x00001f84                os_fire_callback
+ .text.os_running_allerta_main_app
+                0x00001fa8        0xc lib/libpulse_os.a(main.o)
+                0x00001fa8                os_running_allerta_main_app
+ .text.is_spiflash_sector_safe
+                0x00001fb4       0x24 lib/libpulse_os.a(main.o)
+                0x00001fb4                is_spiflash_sector_safe
+ .text.pp_query_version_response
+                0x00001fd8       0x34 lib/libpulse_os.a(main.o)
+                0x00001fd8                pp_query_version_response
+ .text.os_preferences_updated
+                0x0000200c       0x10 lib/libpulse_os.a(main.o)
+                0x0000200c                os_preferences_updated
+ .text.os_handle_non_pp_bt_data
+                0x0000201c       0x10 lib/libpulse_os.a(main.o)
+                0x0000201c                os_handle_non_pp_bt_data
+ .text.set_oled_brightness
+                0x0000202c       0x2c lib/libpulse_os.a(main.o)
+                0x0000202c                set_oled_brightness
+ .text.pulse_os_init
+                0x00002058       0x24 lib/libpulse_os.a(main.o)
+                0x00002058                pulse_os_init
+ .text.spiflash_erase_from_sector_to_sector
+                0x0000207c       0x36 lib/libpulse_os.a(main.o)
+                0x0000207c                spiflash_erase_from_sector_to_sector
+ *fill*         0x000020b2        0x2 00
+ .text.pp_erase_element
+                0x000020b4       0x4c lib/libpulse_os.a(main.o)
+                0x000020b4                pp_erase_element
+ .text.pulse_cancel_vibe
+                0x00002100       0x20 lib/libpulse_os.a(main.o)
+                0x00002100                pulse_cancel_vibe
+ .text.vibe     0x00002120       0x60 lib/libpulse_os.a(main.o)
+                0x00002120                vibe
+ .text.vibe_continuous
+                0x00002180       0x4c lib/libpulse_os.a(main.o)
+                0x00002180                vibe_continuous
+ .text.pulse_update_power_down_timer
+                0x000021cc       0x28 lib/libpulse_os.a(main.o)
+                0x000021cc                pulse_update_power_down_timer
+ .text.os_hardware_event
+                0x000021f4       0x2c lib/libpulse_os.a(main.o)
+                0x000021f4                os_hardware_event
+ .text.pulse_send_bluetooth_int
+                0x00002220       0x2c lib/libpulse_os.a(main.o)
+                0x00002220                pulse_send_bluetooth_int
+ .text.pp_handler_spiflash
+                0x0000224c       0x64 lib/libpulse_os.a(main.o)
+                0x0000224c                pp_handler_spiflash
+ .text.pp_handler_command
+                0x000022b0      0x15c lib/libpulse_os.a(main.o)
+                0x000022b0                pp_handler_command
+ .text.pp_handler_notification
+                0x0000240c       0xbc lib/libpulse_os.a(main.o)
+                0x0000240c                pp_handler_notification
+ .text.pp_handler_error
+                0x000024c8        0xe lib/libpulse_os.a(main.o)
+                0x000024c8                pp_handler_error
+ *fill*         0x000024d6        0x2 00
+ .text.bt_handler
+                0x000024d8       0x18 lib/libpulse_os.a(main.o)
+                0x000024d8                bt_handler
+ .text.pulse_show_hw_info
+                0x000024f0      0x11c lib/libpulse_os.a(main.o)
+                0x000024f0                pulse_show_hw_info
+ .text.button_handler
+                0x0000260c       0xc8 lib/libpulse_os.a(main.o)
+                0x0000260c                button_handler
+ .text.pll      0x000026d4       0x90 lib/libpulse_os.a(main.o)
+                0x000026d4                pll
+ .text.lpc_doze
+                0x00002764      0x1e0 lib/libpulse_os.a(main.o)
+                0x00002764                lpc_doze
+ .text.pulse_get_alarm
+                0x00002944        0x8 lib/libpulse_os.a(alarm.o)
+                0x00002944                pulse_get_alarm
+ .text.pulse_get_alarm_enabled
+                0x0000294c       0x10 lib/libpulse_os.a(alarm.o)
+                0x0000294c                pulse_get_alarm_enabled
+ .text.check_alarm
+                0x0000295c       0x8c lib/libpulse_os.a(alarm.o)
+                0x0000295c                check_alarm
+ .text.init_alarm
+                0x000029e8       0x24 lib/libpulse_os.a(alarm.o)
+                0x000029e8                init_alarm
+ .text.pulse_set_alarm
+                0x00002a0c       0x3c lib/libpulse_os.a(alarm.o)
+                0x00002a0c                pulse_set_alarm
+ .text.pulse_get_alarm_string
+                0x00002a48       0x48 lib/libpulse_os.a(alarm.o)
+                0x00002a48                pulse_get_alarm_string
+ .text.battery_log_get_battery_life
+                0x00002a90       0x1c lib/libpulse_os.a(battery_log.o)
+                0x00002a90                battery_log_get_battery_life
+ .text.battery_log_number_of_events
+                0x00002aac        0xc lib/libpulse_os.a(battery_log.o)
+                0x00002aac                battery_log_number_of_events
+ .text.battery_log_is_logging
+                0x00002ab8       0x24 lib/libpulse_os.a(battery_log.o)
+                0x00002ab8                battery_log_is_logging
+ .text.battery_log_set_last_event
+                0x00002adc       0x58 lib/libpulse_os.a(battery_log.o)
+                0x00002adc                battery_log_set_last_event
+ .text.battery_log_set_timestamp
+                0x00002b34       0x1a lib/libpulse_os.a(battery_log.o)
+                0x00002b34                battery_log_set_timestamp
+ *fill*         0x00002b4e        0x2 00
+ .text.battery_log_preserve_last_runtime
+                0x00002b50       0x38 lib/libpulse_os.a(battery_log.o)
+                0x00002b50                battery_log_preserve_last_runtime
+ .text.battery_log_clear
+                0x00002b88       0x28 lib/libpulse_os.a(battery_log.o)
+                0x00002b88                battery_log_clear
+ .text.battery_log_retrieve_last_runtime
+                0x00002bb0       0x18 lib/libpulse_os.a(battery_log.o)
+                0x00002bb0                battery_log_retrieve_last_runtime
+ .text.battery_log_update
+                0x00002bc8       0x58 lib/libpulse_os.a(battery_log.o)
+                0x00002bc8                battery_log_update
+ .text.battery_log_get_last_event
+                0x00002c20       0x44 lib/libpulse_os.a(battery_log.o)
+                0x00002c20                battery_log_get_last_event
+ .text.battery_log_init
+                0x00002c64       0x28 lib/libpulse_os.a(battery_log.o)
+                0x00002c64                battery_log_init
+ .text.battery_log_first_boot
+                0x00002c8c       0x1e lib/libpulse_os.a(battery_log.o)
+                0x00002c8c                battery_log_first_boot
+ .text.strncpy  0x00002caa       0x28 lib/libpulse_os.a(notification.o)
+ *fill*         0x00002cd2        0x2 00
+ .text.push_queue
+                0x00002cd4       0x50 lib/libpulse_os.a(notification.o)
+                0x00002cd4                push_queue
+ .text.notification_init
+                0x00002d24       0x2c lib/libpulse_os.a(notification.o)
+                0x00002d24                notification_init
+ .text.store_notification
+                0x00002d50       0x80 lib/libpulse_os.a(notification.o)
+                0x00002d50                store_notification
+ .text.pulse_get_time_date
+                0x00002dd0        0xc lib/libpulse_os.a(clock.o)
+                0x00002dd0                pulse_get_time_date
+ .text.pulse_get_preference
+                0x00002ddc       0x6c lib/libpulse_os.a(preferences.o)
+                0x00002ddc                pulse_get_preference
+ .text.pulse_set_preference
+                0x00002e48      0x118 lib/libpulse_os.a(preferences.o)
+                0x00002e48                pulse_set_preference
+ .text.init_preferences
+                0x00002f60       0x40 lib/libpulse_os.a(preferences.o)
+                0x00002f60                init_preferences
+ .text.pp_dispatcher
+                0x00002fa0       0xd4 lib/libpulse_protocol.a(pp_dispatcher.o)
+                0x00002fa0                pp_dispatcher
+ .text.pp_decode_message
+                0x00003074        0xc lib/libpulse_protocol.a(pulse_protocol.o)
+                0x00003074                pp_decode_message
+ .text.pp_decode_notification_strings
+                0x00003080       0x38 lib/libpulse_protocol.a(pulse_protocol.o)
+                0x00003080                pp_decode_notification_strings
+ .text.pp_decode_spiflash
+                0x000030b8       0x48 lib/libpulse_protocol.a(pulse_protocol.o)
+                0x000030b8                pp_decode_spiflash
+ .text          0x00003100      0x11c /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_udivsi3.o)
+                0x00003100                __udivsi3
+                0x00003100                __aeabi_uidiv
+                0x000031fc                __aeabi_uidivmod
+ .text.bc4_event_handler
+                0x0000321c       0x20 lib/libbtstack.a(init_bc4.o)
+                0x0000321c                bc4_event_handler
+ .text.bc4_data_handler
+                0x0000323c       0x24 lib/libbtstack.a(init_bc4.o)
+                0x0000323c                bc4_data_handler
+ .text.bc4_register_handlers
+                0x00003260       0x14 lib/libbtstack.a(init_bc4.o)
+                0x00003260                bc4_register_handlers
+ .text.init_bc4_btstack
+                0x00003274       0x38 lib/libbtstack.a(init_bc4.o)
+                0x00003274                init_bc4_btstack
+ .text.do_command
+                0x000032ac       0xf0 lib/libbtstack.a(init_bc4.o)
+ .text.bcsp_loop
+                0x0000339c       0xf0 lib/libbtstack.a(init_bc4.o)
+ .text.write_bcsp
+                0x0000348c       0x3c lib/libbtstack.a(init_bc4.o)
+ .text.bt_init_bcsp
+                0x000034c8       0x8c lib/libbtstack.a(init_bc4.o)
+ .text.init_bc4
+                0x00003554      0x150 lib/libbtstack.a(init_bc4.o)
+                0x00003554                init_bc4
+ .text.ubcsp_initialize
+                0x000036a4       0x30 lib/libbtstack.a(ubcsp.o)
+                0x000036a4                ubcsp_initialize
+ .text.ubcsp_send_packet
+                0x000036d4       0x10 lib/libbtstack.a(ubcsp.o)
+                0x000036d4                ubcsp_send_packet
+ .text.ubcsp_receive_packet
+                0x000036e4       0x10 lib/libbtstack.a(ubcsp.o)
+                0x000036e4                ubcsp_receive_packet
+ .text.ubcsp_calc_crc
+                0x000036f4       0x30 lib/libbtstack.a(ubcsp.o)
+ .text.ubcsp_crc_reverse
+                0x00003724       0x1e lib/libbtstack.a(ubcsp.o)
+ *fill*         0x00003742        0x2 00
+ .text.ubcsp_setup_packet
+                0x00003744       0x34 lib/libbtstack.a(ubcsp.o)
+ .text.ubcsp_poll
+                0x00003778      0x504 lib/libbtstack.a(ubcsp.o)
+                0x00003778                ubcsp_poll
+ .text.null_event_handler
+                0x00003c7c        0x2 lib/libbtstack.a(l2cap.o)
+ .text.null_data_handler
+                0x00003c7e        0x2 lib/libbtstack.a(l2cap.o)
+ .text.l2cap_register_event_packet_handler
+                0x00003c80        0xc lib/libbtstack.a(l2cap.o)
+                0x00003c80                l2cap_register_event_packet_handler
+ .text.l2cap_register_data_packet_handler
+                0x00003c8c        0xc lib/libbtstack.a(l2cap.o)
+                0x00003c8c                l2cap_register_data_packet_handler
+ .text.l2cap_get_channel_for_local_cid
+                0x00003c98       0x20 lib/libbtstack.a(l2cap.o)
+                0x00003c98                l2cap_get_channel_for_local_cid
+ .text.l2cap_get_service
+                0x00003cb8       0x20 lib/libbtstack.a(l2cap.o)
+                0x00003cb8                l2cap_get_service
+ .text.l2cap_set_capture_connection
+                0x00003cd8        0xc lib/libbtstack.a(l2cap.o)
+                0x00003cd8                l2cap_set_capture_connection
+ .text.l2cap_send_internal
+                0x00003ce4       0x64 lib/libbtstack.a(l2cap.o)
+                0x00003ce4                l2cap_send_internal
+ .text.l2cap_register_service_internal
+                0x00003d48       0x30 lib/libbtstack.a(l2cap.o)
+                0x00003d48                l2cap_register_service_internal
+ .text.l2cap_emit_connection_request
+                0x00003d78       0x70 lib/libbtstack.a(l2cap.o)
+                0x00003d78                l2cap_emit_connection_request
+ .text.l2cap_emit_channel_closed
+                0x00003de8       0x44 lib/libbtstack.a(l2cap.o)
+                0x00003de8                l2cap_emit_channel_closed
+ .text.l2cap_emit_channel_opened
+                0x00003e2c       0x70 lib/libbtstack.a(l2cap.o)
+                0x00003e2c                l2cap_emit_channel_opened
+ .text.l2cap_unregister_service_internal
+                0x00003e9c       0x20 lib/libbtstack.a(l2cap.o)
+                0x00003e9c                l2cap_unregister_service_internal
+ .text.l2cap_finialize_channel_close
+                0x00003ebc       0x24 lib/libbtstack.a(l2cap.o)
+                0x00003ebc                l2cap_finialize_channel_close
+ .text.l2cap_create_channel_internal
+                0x00003ee0       0x54 lib/libbtstack.a(l2cap.o)
+                0x00003ee0                l2cap_create_channel_internal
+ .text.l2cap_handle_connection_failed_for_addr
+                0x00003f34       0x48 lib/libbtstack.a(l2cap.o)
+ .text.l2cap_send_signaling_packet
+                0x00003f7c       0x34 lib/libbtstack.a(l2cap.o)
+                0x00003f7c                l2cap_send_signaling_packet
+ .text.l2cap_close_connection
+                0x00003fb0       0x5c lib/libbtstack.a(l2cap.o)
+                0x00003fb0                l2cap_close_connection
+ .text.l2cap_handle_disconnect_request
+                0x0000400c       0x26 lib/libbtstack.a(l2cap.o)
+ *fill*         0x00004032        0x2 00
+ .text.l2cap_signaling_handler
+                0x00004034       0xf8 lib/libbtstack.a(l2cap.o)
+                0x00004034                l2cap_signaling_handler
+ .text.l2cap_acl_handler
+                0x0000412c      0x1e8 lib/libbtstack.a(l2cap.o)
+                0x0000412c                l2cap_acl_handler
+ .text.l2cap_decline_connection_internal
+                0x00004314       0x3c lib/libbtstack.a(l2cap.o)
+                0x00004314                l2cap_decline_connection_internal
+ .text.l2cap_accept_connection_internal
+                0x00004350       0x50 lib/libbtstack.a(l2cap.o)
+                0x00004350                l2cap_accept_connection_internal
+ .text.l2cap_event_handler
+                0x000043a0      0x130 lib/libbtstack.a(l2cap.o)
+                0x000043a0                l2cap_event_handler
+ .text.l2cap_disconnect_internal
+                0x000044d0       0x30 lib/libbtstack.a(l2cap.o)
+                0x000044d0                l2cap_disconnect_internal
+ .text.l2cap_init
+                0x00004500       0x38 lib/libbtstack.a(l2cap.o)
+                0x00004500                l2cap_init
+ .text.bcsp_get_transport_name
+                0x00004538        0x8 lib/libbtstack.a(hci_transport_bcsp.o)
+ .text.bcsp_queue_cmd
+                0x00004540       0x60 lib/libbtstack.a(hci_transport_bcsp.o)
+ .text.bcsp_send_cmd_packet
+                0x000045a0       0x14 lib/libbtstack.a(hci_transport_bcsp.o)
+ .text.bcsp_send_acl_packet
+                0x000045b4       0x14 lib/libbtstack.a(hci_transport_bcsp.o)
+ .text.bcsp_register_event_packet_handler
+                0x000045c8       0x14 lib/libbtstack.a(hci_transport_bcsp.o)
+ .text.bcsp_register_acl_packet_handler
+                0x000045dc       0x14 lib/libbtstack.a(hci_transport_bcsp.o)
+ .text.hci_transport_bcsp_instance
+                0x000045f0       0x4c lib/libbtstack.a(hci_transport_bcsp.o)
+                0x000045f0                hci_transport_bcsp_instance
+ .text.bcsp_close
+                0x0000463c       0x20 lib/libbtstack.a(hci_transport_bcsp.o)
+ .text.bcsp_open
+                0x0000465c       0x64 lib/libbtstack.a(hci_transport_bcsp.o)
+ .text.bcsp_process
+                0x000046c0      0x2e0 lib/libbtstack.a(hci_transport_bcsp.o)
+ .text.run_loop_add_data_source
+                0x000049a0       0x1c lib/libbtstack.a(run_loop.o)
+                0x000049a0                run_loop_add_data_source
+ .text.run_loop_remove_data_source
+                0x000049bc       0x1c lib/libbtstack.a(run_loop.o)
+                0x000049bc                run_loop_remove_data_source
+ .text.run_loop_add_timer
+                0x000049d8       0x1c lib/libbtstack.a(run_loop.o)
+                0x000049d8                run_loop_add_timer
+ .text.run_loop_remove_timer
+                0x000049f4       0x1c lib/libbtstack.a(run_loop.o)
+                0x000049f4                run_loop_remove_timer
+ .text.run_loop_execute
+                0x00004a10       0x1c lib/libbtstack.a(run_loop.o)
+                0x00004a10                run_loop_execute
+ .text.run_loop_init
+                0x00004a2c       0x28 lib/libbtstack.a(run_loop.o)
+                0x00004a2c                run_loop_init
+ .text.run_loop_set_timer
+                0x00004a54        0x4 lib/libbtstack.a(run_loop.o)
+                0x00004a54                run_loop_set_timer
+ .text.run_loop_timeval_compare
+                0x00004a58       0x2a lib/libbtstack.a(run_loop.o)
+                0x00004a58                run_loop_timeval_compare
+ .text.run_loop_timer_compare
+                0x00004a82       0x28 lib/libbtstack.a(run_loop.o)
+                0x00004a82                run_loop_timer_compare
+ *fill*         0x00004aaa        0x2 00
+ .text.connection_for_handle
+                0x00004aac       0x24 lib/libbtstack.a(hci.o)
+                0x00004aac                connection_for_handle
+ .text.dummy_handler
+                0x00004ad0        0x2 lib/libbtstack.a(hci.o)
+ .text.null_control_function
+                0x00004ad2        0x4 lib/libbtstack.a(hci.o)
+ *fill*         0x00004ad6        0x2 00
+ .text.null_control_name
+                0x00004ad8        0x8 lib/libbtstack.a(hci.o)
+ .text.hci_register_event_packet_handler
+                0x00004ae0        0xc lib/libbtstack.a(hci.o)
+                0x00004ae0                hci_register_event_packet_handler
+ .text.hci_register_acl_packet_handler
+                0x00004aec        0xc lib/libbtstack.a(hci.o)
+                0x00004aec                hci_register_acl_packet_handler
+ .text.hci_init
+                0x00004af8       0x54 lib/libbtstack.a(hci.o)
+                0x00004af8                hci_init
+ .text.hci_emit_btstack_version
+                0x00004b4c        0x2 lib/libbtstack.a(hci.o)
+                0x00004b4c                hci_emit_btstack_version
+ *fill*         0x00004b4e        0x2 00
+ .text.hci_emit_system_bluetooth_enabled
+                0x00004b50       0x3c lib/libbtstack.a(hci.o)
+                0x00004b50                hci_emit_system_bluetooth_enabled
+ .text.hci_emit_hci_open_failed
+                0x00004b8c       0x3c lib/libbtstack.a(hci.o)
+                0x00004b8c                hci_emit_hci_open_failed
+ .text.hci_emit_nr_connections_changed
+                0x00004bc8       0x4c lib/libbtstack.a(hci.o)
+                0x00004bc8                hci_emit_nr_connections_changed
+ .text.hci_emit_state
+                0x00004c14       0x44 lib/libbtstack.a(hci.o)
+                0x00004c14                hci_emit_state
+ .text.hci_emit_l2cap_check_timeout
+                0x00004c58       0x44 lib/libbtstack.a(hci.o)
+                0x00004c58                hci_emit_l2cap_check_timeout
+ .text.hci_emit_connection_complete
+                0x00004c9c       0x5c lib/libbtstack.a(hci.o)
+                0x00004c9c                hci_emit_connection_complete
+ .text.connection_for_address
+                0x00004cf8       0x30 lib/libbtstack.a(hci.o)
+ .text.hci_connection_timestamp
+                0x00004d28       0x10 lib/libbtstack.a(hci.o)
+ .text.create_connection_for_addr
+                0x00004d38       0x58 lib/libbtstack.a(hci.o)
+ .text.hci_send_cmd_packet
+                0x00004d90       0x74 lib/libbtstack.a(hci.o)
+                0x00004d90                hci_send_cmd_packet
+ .text.hci_send_cmd
+                0x00004e04       0x30 lib/libbtstack.a(hci.o)
+                0x00004e04                hci_send_cmd
+ .text.hci_run  0x00004e34       0x84 lib/libbtstack.a(hci.o)
+                0x00004e34                hci_run
+ .text.hci_power_control
+                0x00004eb8       0x98 lib/libbtstack.a(hci.o)
+                0x00004eb8                hci_power_control
+ .text.acl_handler
+                0x00004f50       0xf0 lib/libbtstack.a(hci.o)
+ .text.hci_send_acl_packet
+                0x00005040       0x40 lib/libbtstack.a(hci.o)
+                0x00005040                hci_send_acl_packet
+ .text.hci_connection_timeout_handler
+                0x00005080       0x3c lib/libbtstack.a(hci.o)
+ .text.event_handler
+                0x000050bc      0x120 lib/libbtstack.a(hci.o)
+ .text.bt_store_16
+                0x000051dc        0xe lib/libbtstack.a(utils.o)
+                0x000051dc                bt_store_16
+ .text.bt_flip_addr
+                0x000051ea       0x1a lib/libbtstack.a(utils.o)
+                0x000051ea                bt_flip_addr
+ .text.get_time_ms
+                0x00005204        0xc lib/libbtstack.a(utils.o)
+                0x00005204                get_time_ms
+ .text.embedded_dump_timer
+                0x00005210       0x14 lib/libbtstack.a(run_loop_embedded.o)
+                0x00005210                embedded_dump_timer
+ .text.embedded_execute
+                0x00005224       0x24 lib/libbtstack.a(run_loop_embedded.o)
+                0x00005224                embedded_execute
+ .text.embedded_init
+                0x00005248       0x14 lib/libbtstack.a(run_loop_embedded.o)
+                0x00005248                embedded_init
+ .text.embedded_remove_timer
+                0x0000525c       0x14 lib/libbtstack.a(run_loop_embedded.o)
+                0x0000525c                embedded_remove_timer
+ .text.embedded_remove_data_source
+                0x00005270       0x14 lib/libbtstack.a(run_loop_embedded.o)
+                0x00005270                embedded_remove_data_source
+ .text.embedded_add_timer
+                0x00005284       0x2c lib/libbtstack.a(run_loop_embedded.o)
+                0x00005284                embedded_add_timer
+ .text.embedded_add_data_source
+                0x000052b0       0x14 lib/libbtstack.a(run_loop_embedded.o)
+                0x000052b0                embedded_add_data_source
+ .text.hci_create_cmd_internal
+                0x000052c4       0xf4 lib/libbtstack.a(hci_cmds.o)
+                0x000052c4                hci_create_cmd_internal
+ .text.hci_dump_packet
+                0x000053b8        0x2 lib/libbtstack.a(hci_dump.o)
+                0x000053b8                hci_dump_packet
+ .text.linked_list_add
+                0x000053ba       0x1a lib/libbtstack.a(linked_list.o)
+                0x000053ba                linked_list_add
+ .text.linked_list_remove
+                0x000053d4       0x20 lib/libbtstack.a(linked_list.o)
+                0x000053d4                linked_list_remove
+ .text.linked_item_set_user
+                0x000053f4        0x8 lib/libbtstack.a(linked_list.o)
+                0x000053f4                linked_item_set_user
+ .text.linked_item_get_user
+                0x000053fc        0x4 lib/libbtstack.a(linked_list.o)
+                0x000053fc                linked_item_get_user
+ .text.l2cap_next_sig_id
+                0x00005400       0x20 lib/libbtstack.a(l2cap_signaling.o)
+                0x00005400                l2cap_next_sig_id
+ .text.l2cap_next_local_cid
+                0x00005420       0x10 lib/libbtstack.a(l2cap_signaling.o)
+                0x00005420                l2cap_next_local_cid
+ .text.l2cap_create_signaling_internal
+                0x00005430       0xcc lib/libbtstack.a(l2cap_signaling.o)
+                0x00005430                l2cap_create_signaling_internal
+ .text.dummy_handler
+                0x000054fc        0x2 lib/libbtstack.a(btstack.o)
+ *fill*         0x000054fe        0x2 00
+ .text.btstack_packet_handler
+                0x00005500       0x28 lib/libbtstack.a(btstack.o)
+ .text.bt_register_wtf_handler
+                0x00005528        0xc lib/libbtstack.a(btstack.o)
+                0x00005528                bt_register_wtf_handler
+ .text.btstack_wtf
+                0x00005534       0x1c lib/libbtstack.a(btstack.o)
+                0x00005534                btstack_wtf
+ .text.bt_send_cmd
+                0x00005550       0x38 lib/libbtstack.a(btstack.o)
+                0x00005550                bt_send_cmd
+ .text.bt_open  0x00005588       0x48 lib/libbtstack.a(btstack.o)
+                0x00005588                bt_open
+ .text.socket_connection_register_packet_callback
+                0x000055d0        0xc lib/libbtstack.a(socket_connection_embedded.o)
+                0x000055d0                socket_connection_register_packet_callback
+ .text.socket_connection_open_tcp
+                0x000055dc        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+                0x000055dc                socket_connection_open_tcp
+ .text.socket_connection_open_unix
+                0x000055e0        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+                0x000055e0                socket_connection_open_unix
+ .text.socket_connection_send_packet
+                0x000055e4      0x154 lib/libbtstack.a(socket_connection_embedded.o)
+                0x000055e4                socket_connection_send_packet
+ .text.pulse_battery_get_charge_state
+                0x00005738       0x24 lib/libkernel.a(battery.o)
+                0x00005738                pulse_battery_get_charge_state
+ .text.adc_init
+                0x0000575c       0x8c lib/libkernel.a(battery.o)
+                0x0000575c                adc_init
+ .text.adc_loop
+                0x000057e8       0xbc lib/libkernel.a(battery.o)
+                0x000057e8                adc_loop
+ .text.adc_loop_auto
+                0x000058a4       0x18 lib/libkernel.a(battery.o)
+                0x000058a4                adc_loop_auto
+ .text.adc_battery_update
+                0x000058bc       0x3c lib/libkernel.a(battery.o)
+                0x000058bc                adc_battery_update
+ .text.register_bt_data_handler
+                0x000058f8       0x10 lib/libkernel.a(bt.o)
+                0x000058f8                register_bt_data_handler
+ .text.bt_get_pin
+                0x00005908        0xc lib/libkernel.a(bt.o)
+                0x00005908                bt_get_pin
+ .text.bt_get_addr
+                0x00005914        0x4 lib/libkernel.a(bt.o)
+                0x00005914                bt_get_addr
+ .text.pulse_set_bluetooth_sniff
+                0x00005918       0x38 lib/libkernel.a(bt.o)
+                0x00005918                pulse_set_bluetooth_sniff
+ .text.bt_set_pin
+                0x00005950       0x20 lib/libkernel.a(bt.o)
+                0x00005950                bt_set_pin
+ .text.bt_init  0x00005970       0xa8 lib/libkernel.a(bt.o)
+                0x00005970                bt_init
+ .text.bt_run_loop
+                0x00005a18        0xc lib/libkernel.a(bt.o)
+                0x00005a18                bt_run_loop
+ .text.bt_reset
+                0x00005a24       0x48 lib/libkernel.a(bt.o)
+                0x00005a24                bt_reset
+ .text.bt_event_handler
+                0x00005a6c      0x1cc lib/libkernel.a(bt.o)
+                0x00005a6c                bt_event_handler
+ .text.bt_data_handler
+                0x00005c38       0x38 lib/libkernel.a(bt.o)
+                0x00005c38                bt_data_handler
+ .text._get_link_key
+                0x00005c70       0x14 lib/libkernel.a(linkkey_ps.o)
+ .text._put_link_key
+                0x00005c84       0x26 lib/libkernel.a(linkkey_ps.o)
+ *fill*         0x00005caa        0x2 00
+ .text.bt_put_link_key
+                0x00005cac       0xc8 lib/libkernel.a(linkkey_ps.o)
+                0x00005cac                bt_put_link_key
+ .text.bt_get_link_key
+                0x00005d74       0x54 lib/libkernel.a(linkkey_ps.o)
+                0x00005d74                bt_get_link_key
+ .text.button_init
+                0x00005dc8       0x12 lib/libkernel.a(button.o)
+                0x00005dc8                button_init
+ .text.button   0x00005dda       0x12 lib/libkernel.a(button.o)
+                0x00005dda                button
+ .text.kernel_wtf
+                0x00005dec        0x2 lib/libkernel.a(kernel.o)
+                0x00005dec                kernel_wtf
+ *fill*         0x00005dee        0x2 00
+ .text.kernel_init
+                0x00005df0       0x5c lib/libkernel.a(kernel.o)
+                0x00005df0                kernel_init
+ .text.kernel_init_oled
+                0x00005e4c       0x6a lib/libkernel.a(kernel.o)
+                0x00005e4c                kernel_init_oled
+ .text.memset   0x00005eb6       0x14 lib/libkernel.a(mem.o)
+                0x00005eb6                memset
+ .text.memcpy   0x00005eca       0x1a lib/libkernel.a(mem.o)
+                0x00005eca                memcpy
+ .text.memcmp   0x00005ee4       0x22 lib/libkernel.a(mem.o)
+                0x00005ee4                memcmp
+ *fill*         0x00005f06        0x2 00
+ .text.rtc_ctl  0x00005f08       0x18 lib/libkernel.a(rtc.o)
+                0x00005f08                rtc_ctl
+ .text.rtc_set_alarm
+                0x00005f20       0x38 lib/libkernel.a(rtc.o)
+                0x00005f20                rtc_set_alarm
+ .text.rtc_set_time
+                0x00005f58       0x48 lib/libkernel.a(rtc.o)
+                0x00005f58                rtc_set_time
+ .text.rtc_get_time
+                0x00005fa0       0x90 lib/libkernel.a(rtc.o)
+                0x00005fa0                rtc_get_time
+ .text.rtc_init
+                0x00006030       0x94 lib/libkernel.a(rtc.o)
+                0x00006030                rtc_init
+ .text._spi_select
+                0x000060c4       0x1c lib/libkernel.a(spiflash.o)
+ .text._spi_xfer
+                0x000060e0       0x12 lib/libkernel.a(spiflash.o)
+                0x000060e0                _spi_xfer
+ .text._spi_write16
+                0x000060f2       0x10 lib/libkernel.a(spiflash.o)
+ .text._spi_write8
+                0x00006102       0x10 lib/libkernel.a(spiflash.o)
+ .text._spi_mem_cmd
+                0x00006112       0x12 lib/libkernel.a(spiflash.o)
+                0x00006112                _spi_mem_cmd
+ .text.spiflash_getstatus
+                0x00006124       0x12 lib/libkernel.a(spiflash.o)
+                0x00006124                spiflash_getstatus
+ .text.spiflash_read
+                0x00006136       0x12 lib/libkernel.a(spiflash.o)
+                0x00006136                spiflash_read
+ .text.spiflash_init
+                0x00006148       0x12 lib/libkernel.a(spiflash.o)
+                0x00006148                spiflash_init
+ .text.spiflash_checksum
+                0x0000615a       0x12 lib/libkernel.a(spiflash.o)
+                0x0000615a                spiflash_checksum
+ .text.spiflash_set_wren
+                0x0000616c       0x4c lib/libkernel.a(spiflash.o)
+                0x0000616c                spiflash_set_wren
+ .text.spiflash_busy
+                0x000061b8       0x10 lib/libkernel.a(spiflash.o)
+                0x000061b8                spiflash_busy
+ .text._spiflash_write_page
+                0x000061c8       0x54 lib/libkernel.a(spiflash.o)
+ .text.spiflash_write
+                0x0000621c       0x70 lib/libkernel.a(spiflash.o)
+                0x0000621c                spiflash_write
+ .text._flash_erase
+                0x0000628c       0x4a lib/libkernel.a(spiflash.o)
+ *fill*         0x000062d6        0x2 00
+ .text.spiflash_erase_sector_at_addr
+                0x000062d8       0x20 lib/libkernel.a(spiflash.o)
+                0x000062d8                spiflash_erase_sector_at_addr
+ .text.spiflash_erase_sector
+                0x000062f8       0x1c lib/libkernel.a(spiflash.o)
+                0x000062f8                spiflash_erase_sector
+ .text.vibe_on  0x00006314       0x18 lib/libkernel.a(vibe.o)
+                0x00006314                vibe_on
+ .text.vibe_off
+                0x0000632c       0x20 lib/libkernel.a(vibe.o)
+                0x0000632c                vibe_off
+ .text.vibe_init
+                0x0000634c       0x20 lib/libkernel.a(vibe.o)
+                0x0000634c                vibe_init
+ *fill*         0x0000636c        0x4 00
+ .text.vibe_init.stub
+                0x00006370       0x30 linker stubs
+ *(.glue_7 .glue_7t)
+ .glue_7        0x00000000        0x0 linker stubs
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.rodata .rodata.*)
+ .rodata.COLOR_BLACK24
+                0x000063a8        0x4 /tmp/ccTGWpMO.o
+ .rodata.C.0.1026
+                0x000063ac        0x4 /tmp/ccTGWpMO.o
+ .rodata.str1.1
+                0x000063b0       0x18 /tmp/ccTGWpMO.o
+ .rodata.str1.1
+                0x000063c8        0x6 lib/libkernel.a(uart.o)
+ .rodata.str1.1
+                0x000063ce       0x22 lib/libkernel.a(printf.o)
+ .rodata.dbgfont
+                0x000063f0      0x1e0 lib/libkernel.a(font.o)
+                0x000063f0                dbgfont
+ .rodata.C.8.2039
+                0x000065d0       0x1c lib/libpulse_os.a(main.o)
+ .rodata.str1.1
+                0x000065ec       0xaf lib/libpulse_os.a(main.o)
+                                 0xb6 (size before relaxing)
+ .rodata.str1.1
+                0x0000669b        0x8 lib/libpulse_os.a(alarm.o)
+ *fill*         0x000066a3        0x1 00
+ .rodata.pulse_get_preference
+                0x000066a4       0x44 lib/libpulse_os.a(preferences.o)
+ .rodata.pulse_set_preference
+                0x000066e8       0x48 lib/libpulse_os.a(preferences.o)
+ .rodata.default_prefs
+                0x00006730       0x2c lib/libpulse_os.a(preferences.o)
+                0x00006730                default_prefs
+ .rodata.str1.1
+                0x0000675c       0x34 lib/libbtstack.a(init_bc4.o)
+ .rodata.ubcsp_send_le_header
+                0x00006790        0x4 lib/libbtstack.a(ubcsp.o)
+ .rodata.ubcsp_deslip
+                0x00006794        0x4 lib/libbtstack.a(ubcsp.o)
+ .rodata.crc_table.918
+                0x00006798       0x20 lib/libbtstack.a(ubcsp.o)
+ .rodata.next_le_packet
+                0x000067b8       0x10 lib/libbtstack.a(ubcsp.o)
+ .rodata.ubcsp_le_buffer
+                0x000067c8       0x10 lib/libbtstack.a(ubcsp.o)
+ .rodata.l2cap_signaling_handler
+                0x000067d8       0x18 lib/libbtstack.a(l2cap.o)
+ .rodata.l2cap_acl_handler
+                0x000067f0       0x30 lib/libbtstack.a(l2cap.o)
+ .rodata.str1.1
+                0x00006820        0x4 lib/libbtstack.a(l2cap.o)
+ .rodata.str1.1
+                0x00006824       0x2e lib/libbtstack.a(hci_transport_bcsp.o)
+ *fill*         0x00006852        0x2 00
+ .rodata.C.8.1550
+                0x00006854       0x14 lib/libbtstack.a(hci_transport_bcsp.o)
+ .rodata.hci_run
+                0x00006868       0x14 lib/libbtstack.a(hci.o)
+ .rodata.event_handler
+                0x0000687c       0x34 lib/libbtstack.a(hci.o)
+ .rodata.str1.1
+                0x000068b0       0x11 lib/libbtstack.a(hci.o)
+ *fill*         0x000068c1        0x3 00
+ .rodata.run_loop_embedded
+                0x000068c4       0x1c lib/libbtstack.a(run_loop_embedded.o)
+                0x000068c4                run_loop_embedded
+ .rodata.btstack_set_power_mode
+                0x000068e0        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x000068e0                btstack_set_power_mode
+ .rodata.hci_accept_connection_request
+                0x000068e8        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x000068e8                hci_accept_connection_request
+ .rodata.hci_create_connection
+                0x000068f0        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x000068f0                hci_create_connection
+ .rodata.hci_write_local_name
+                0x000068f8        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x000068f8                hci_write_local_name
+ .rodata.hci_link_key_request_reply
+                0x00006900        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006900                hci_link_key_request_reply
+ .rodata.l2cap_register_service
+                0x00006908        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006908                l2cap_register_service
+ .rodata.hci_create_connection_cancel
+                0x00006910        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006910                hci_create_connection_cancel
+ .rodata.l2cap_accept_connection
+                0x00006918        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006918                l2cap_accept_connection
+ .rodata.hci_link_key_request_negative_reply
+                0x00006920        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006920                hci_link_key_request_negative_reply
+ .rodata.hci_write_page_timeout
+                0x00006928        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006928                hci_write_page_timeout
+ .rodata.hci_reset
+                0x00006930        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006930                hci_reset
+ .rodata.hci_write_authentication_enable
+                0x00006938        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006938                hci_write_authentication_enable
+ .rodata.hci_disconnect
+                0x00006940        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006940                hci_disconnect
+ .rodata.hci_write_scan_enable
+                0x00006948        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006948                hci_write_scan_enable
+ .rodata.hci_read_bd_addr
+                0x00006950        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006950                hci_read_bd_addr
+ .rodata.hci_exit_sniff_mode
+                0x00006958        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006958                hci_exit_sniff_mode
+ .rodata.hci_pin_code_request_reply
+                0x00006960        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006960                hci_pin_code_request_reply
+ .rodata.hci_write_default_link_policy
+                0x00006968        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006968                hci_write_default_link_policy
+ .rodata.hci_write_class_of_device
+                0x00006970        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x00006970                hci_write_class_of_device
+ .rodata.str1.1
+                0x00006978       0x40 lib/libbtstack.a(hci_cmds.o)
+                                 0x53 (size before relaxing)
+ .rodata.hci_sniff_mode
+                0x000069b8        0x8 lib/libbtstack.a(hci_cmds.o)
+                0x000069b8                hci_sniff_mode
+ .rodata.str1.1
+                0x000069c0        0x5 lib/libbtstack.a(l2cap_signaling.o)
+                                 0x15 (size before relaxing)
+ *fill*         0x000069c5        0x3 00
+ .rodata.l2cap_signaling_commands_format
+                0x000069c8       0x2c lib/libbtstack.a(l2cap_signaling.o)
+ .rodata.socket_connection_send_packet
+                0x000069f4       0x94 lib/libbtstack.a(socket_connection_embedded.o)
+ .rodata.adc_loop
+                0x00006a88       0x1c lib/libkernel.a(battery.o)
+ .rodata.str1.1
+                0x00006aa4       0x41 lib/libkernel.a(bt.o)
+                0x00006ae5                _etext = .
+
+.vfp11_veneer   0x00006ae8        0x0 load address 0x00006ae5
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00006ae8        0x0 load address 0x00006ae5
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.data           0x40000000       0x50 load address 0x00006ae5
+                0x40000000                _data = .
+ *(.data .data.*)
+ .data.rh       0x40000000        0x4 lib/libkernel.a(uart.o)
+ .data.th       0x40000004        0x4 lib/libkernel.a(uart.o)
+ .data.rt       0x40000008        0x4 lib/libkernel.a(uart.o)
+ .data.tt       0x4000000c        0x4 lib/libkernel.a(uart.o)
+ .data.hold_to_reset_time
+                0x40000010        0x2 lib/libpulse_os.a(main.o)
+                0x40000010                hold_to_reset_time
+ *fill*         0x40000012        0x2 00
+ .data.vibe_timer
+                0x40000014        0x4 lib/libpulse_os.a(main.o)
+                0x40000014                vibe_timer
+ .data.continuous_timer
+                0x40000018        0x4 lib/libpulse_os.a(main.o)
+                0x40000018                continuous_timer
+ .data.power_down_timer_id
+                0x4000001c        0x4 lib/libpulse_os.a(main.o)
+                0x4000001c                power_down_timer_id
+ .data.event_packet_handler
+                0x40000020        0x4 lib/libbtstack.a(l2cap.o)
+ .data.data_packet_handler
+                0x40000024        0x4 lib/libbtstack.a(l2cap.o)
+ .data.config_options
+                0x40000028        0x4 lib/libbtstack.a(l2cap.o)
+ .data.null_control
+                0x4000002c       0x10 lib/libbtstack.a(hci.o)
+ .data.source_cid
+                0x4000003c        0x2 lib/libbtstack.a(l2cap_signaling.o)
+                0x4000003c                source_cid
+ .data.sig_seq_nr
+                0x4000003e        0x1 lib/libbtstack.a(l2cap_signaling.o)
+                0x4000003e                sig_seq_nr
+ *fill*         0x4000003f        0x1 00
+ .data.daemon_tcp_port
+                0x40000040        0x2 lib/libbtstack.a(btstack.o)
+ *fill*         0x40000042        0x2 00
+ .data.client_packet_handler
+                0x40000044        0x4 lib/libbtstack.a(btstack.o)
+ .data.adc_done
+                0x40000048        0x1 lib/libkernel.a(battery.o)
+                0x40000048                adc_done
+ *fill*         0x40000049        0x3 00
+ .data.first.2050
+                0x4000004c        0x4 lib/libkernel.a(bt.o)
+                0x00006ae5                _data_src = LOADADDR (.data)
+                0x00000050                _data_len = SIZEOF (.data)
+
+.bss            0x40000050     0x13b4 load address 0x00006b35
+                0x40000050                _bss = .
+ *(.bss .bss.*)
+ .bss.rbuf      0x40000050       0x40 lib/libkernel.a(uart.o)
+ .bss.tbuf      0x40000090        0x8 lib/libkernel.a(uart.o)
+ .bss.rlvl      0x40000098        0x1 lib/libkernel.a(uart.o)
+ .bss.tlvl      0x40000099        0x1 lib/libkernel.a(uart.o)
+ *fill*         0x4000009a        0x2 00
+ .bss.tcount    0x4000009c        0x4 lib/libkernel.a(timer.o)
+                0x4000009c                tcount
+ .bss.fx        0x400000a0        0x1 lib/libkernel.a(font.o)
+ .bss.fy        0x400000a1        0x1 lib/libkernel.a(font.o)
+ *fill*         0x400000a2        0x2 00
+ .bss.table     0x400000a4        0x4 lib/libkernel.a(font.o)
+ .bss.timer_list
+                0x400000a8       0x80 lib/libpulse_os.a(timer.o)
+ .bss.was_down  0x40000128        0x1 lib/libpulse_os.a(main.o)
+ .bss.allerta_main_app
+                0x40000129        0x1 lib/libpulse_os.a(main.o)
+                0x40000129                allerta_main_app
+ .bss.unsafe_spiflash_ops_enabled
+                0x4000012a        0x1 lib/libpulse_os.a(main.o)
+                0x4000012a                unsafe_spiflash_ops_enabled
+ .bss.during_brief_wakeup
+                0x4000012b        0x1 lib/libpulse_os.a(main.o)
+                0x4000012b                during_brief_wakeup
+ .bss.msg_num   0x4000012c        0x2 lib/libpulse_os.a(notification.o)
+ *fill*         0x4000012e        0x2 00
+ .bss.active_ids
+                0x40000130      0x120 lib/libpulse_os.a(notification.o)
+ .bss.data      0x40000250      0x104 lib/libpulse_os.a(notification.o)
+ .bss.active_prefs
+                0x40000354       0x2c lib/libpulse_os.a(preferences.o)
+ .bss.sent      0x40000380        0x4 lib/libbtstack.a(init_bc4.o)
+ .bss.seqnum    0x40000384        0x2 lib/libbtstack.a(init_bc4.o)
+ *fill*         0x40000386        0x2 00
+ .bss.send_packet
+                0x40000388        0xc lib/libbtstack.a(init_bc4.o)
+ .bss.receive_buffer
+                0x40000394      0x100 lib/libbtstack.a(init_bc4.o)
+ .bss.transport.1826
+                0x40000494        0x4 lib/libbtstack.a(init_bc4.o)
+ .bss.last_varid
+                0x40000498        0x2 lib/libbtstack.a(init_bc4.o)
+ .bss.activity  0x4000049a        0x1 lib/libbtstack.a(init_bc4.o)
+ *fill*         0x4000049b        0x1 00
+ .bss.send_buffer
+                0x4000049c      0x100 lib/libbtstack.a(init_bc4.o)
+ .bss.os_data_handler
+                0x4000059c        0x4 lib/libbtstack.a(init_bc4.o)
+ .bss.os_event_handler
+                0x400005a0        0x4 lib/libbtstack.a(init_bc4.o)
+ .bss.config.1827
+                0x400005a4        0xc lib/libbtstack.a(init_bc4.o)
+ .bss.timeout   0x400005b0        0x4 lib/libbtstack.a(init_bc4.o)
+ .bss.bc4_is_up
+                0x400005b4        0x4 lib/libbtstack.a(init_bc4.o)
+                0x400005b4                bc4_is_up
+ .bss.response_packet
+                0x400005b8      0x100 lib/libbtstack.a(init_bc4.o)
+ .bss.receive_packet
+                0x400006b8        0xc lib/libbtstack.a(init_bc4.o)
+ .bss.ubcsp_send_header
+                0x400006c4        0x4 lib/libbtstack.a(ubcsp.o)
+ .bss.ubcsp_receive_header
+                0x400006c8        0x4 lib/libbtstack.a(ubcsp.o)
+ .bss.loop.980  0x400006cc        0x4 lib/libbtstack.a(ubcsp.o)
+ .bss.ubcsp_send_crc
+                0x400006d0        0x4 lib/libbtstack.a(ubcsp.o)
+ .bss.octet.954
+                0x400006d4        0x4 lib/libbtstack.a(ubcsp.o)
+ .bss.length.982
+                0x400006d8        0x2 lib/libbtstack.a(ubcsp.o)
+ .bss.crc.981   0x400006da        0x2 lib/libbtstack.a(ubcsp.o)
+ .bss.receive_crc.976
+                0x400006dc        0x1 lib/libbtstack.a(ubcsp.o)
+ *fill*         0x400006dd        0x3 00
+ .bss.loop.955  0x400006e0        0x4 lib/libbtstack.a(ubcsp.o)
+ .bss.activity.979
+                0x400006e4        0x1 lib/libbtstack.a(ubcsp.o)
+ .bss.receive_ack.978
+                0x400006e5        0x1 lib/libbtstack.a(ubcsp.o)
+ *fill*         0x400006e6        0x2 00
+ .bss.ubcsp_send_ack_header
+                0x400006e8        0x4 lib/libbtstack.a(ubcsp.o)
+ .bss.receive_seq.977
+                0x400006ec        0x1 lib/libbtstack.a(ubcsp.o)
+ *fill*         0x400006ed        0x3 00
+ .bss.ubcsp_config
+                0x400006f0       0x34 lib/libbtstack.a(ubcsp.o)
+ .bss.l2cap_services
+                0x40000724        0x4 lib/libbtstack.a(l2cap.o)
+ .bss.capture_connection
+                0x40000728        0x4 lib/libbtstack.a(l2cap.o)
+ .bss.acl_buffer
+                0x4000072c        0x4 lib/libbtstack.a(l2cap.o)
+ .bss.l2cap_channels
+                0x40000730        0x4 lib/libbtstack.a(l2cap.o)
+ .bss._acl_buffer.1505
+                0x40000734      0x108 lib/libbtstack.a(l2cap.o)
+ .bss.sig_buffer
+                0x4000083c        0x4 lib/libbtstack.a(l2cap.o)
+ .bss._channel.1711
+                0x40000840       0x20 lib/libbtstack.a(l2cap.o)
+ .bss._sig_buffer.1504
+                0x40000860       0x30 lib/libbtstack.a(l2cap.o)
+ .bss._service.1853
+                0x40000890       0x10 lib/libbtstack.a(l2cap.o)
+ .bss._chan.1567
+                0x400008a0       0x20 lib/libbtstack.a(l2cap.o)
+ .bss.x.1617    0x400008c0        0x4 lib/libbtstack.a(hci_transport_bcsp.o)
+ .bss._hci_transport_bcsp
+                0x400008c4      0x180 lib/libbtstack.a(hci_transport_bcsp.o)
+ .bss.txt       0x40000a44        0x4 lib/libbtstack.a(hci_transport_bcsp.o)
+ .bss._bcsp_ds  0x40000a48       0x10 lib/libbtstack.a(hci_transport_bcsp.o)
+ .bss._ubcsp_tx_fifo
+                0x40000a58      0x308 lib/libbtstack.a(hci_transport_bcsp.o)
+ .bss.bcsp      0x40000d60        0x4 lib/libbtstack.a(hci_transport_bcsp.o)
+ .bss._ubcsp_tx_buf
+                0x40000d64      0x100 lib/libbtstack.a(hci_transport_bcsp.o)
+ .bss.txh       0x40000e64        0x4 lib/libbtstack.a(hci_transport_bcsp.o)
+ .bss._ubcsp_rx_buf
+                0x40000e68      0x100 lib/libbtstack.a(hci_transport_bcsp.o)
+ .bss.the_run_loop
+                0x40000f68        0x4 lib/libbtstack.a(run_loop.o)
+ .bss.hci_stack
+                0x40000f6c      0x128 lib/libbtstack.a(hci.o)
+ .bss._conn.1601
+                0x40001094      0x18c lib/libbtstack.a(hci.o)
+ .bss.data_sources
+                0x40001220        0x4 lib/libbtstack.a(run_loop_embedded.o)
+ .bss.timers    0x40001224        0x4 lib/libbtstack.a(run_loop_embedded.o)
+ .bss.wtf_handler
+                0x40001228        0x4 lib/libbtstack.a(btstack.o)
+ .bss.btstack_connection
+                0x4000122c        0x4 lib/libbtstack.a(btstack.o)
+ .bss.daemon_tcp_address
+                0x40001230        0x4 lib/libbtstack.a(btstack.o)
+ .bss.hci_cmd_buffer
+                0x40001234      0x104 lib/libbtstack.a(btstack.o)
+ .bss.socket_connection_packet_callback
+                0x40001338        0x4 lib/libbtstack.a(socket_connection_embedded.o)
+ .bss.timeout   0x4000133c       0x10 lib/libbtstack.a(socket_connection_embedded.o)
+ .bss.charge_current
+                0x4000134c        0x2 lib/libkernel.a(battery.o)
+ .bss.battery_voltage_adc
+                0x4000134e        0x2 lib/libkernel.a(battery.o)
+ .bss.state.1342
+                0x40001350        0x4 lib/libkernel.a(battery.o)
+ .bss.is_connected
+                0x40001354        0x1 lib/libkernel.a(bt.o)
+                0x40001354                is_connected
+ *fill*         0x40001355        0x1 00
+ .bss.handle    0x40001356        0x2 lib/libkernel.a(bt.o)
+ .bss.bt_pin_code
+                0x40001358        0x8 lib/libkernel.a(bt.o)
+ .bss.name      0x40001360       0x10 lib/libkernel.a(bt.o)
+ .bss.userspace_data_handler
+                0x40001370        0x4 lib/libkernel.a(bt.o)
+ COMMON         0x40001374       0x18 lib/libkernel.a(uart.o)
+                0x40001374                bt_tx_level
+                0x40001378                bt_lsr_err
+                0x4000137c                bt_rx_hwm
+                0x40001380                bt_tx_hwm
+                0x40001384                bt_rx_level
+                0x40001388                bt_lsr_copy
+ COMMON         0x4000138c       0x2e lib/libpulse_os.a(main.o)
+                0x4000138c                button_start_time
+                0x40001390                active_alert
+                0x4000139c                static_resp_int
+                0x400013a0                registeredActionCallbacks
+                0x400013b4                minOfLastAlarmCheck
+                0x400013b6                draw_top
+                0x400013b7                draw_date
+                0x400013b8                cid
+ *fill*         0x400013ba        0x2 00
+ COMMON         0x400013bc       0x42 lib/libpulse_os.a(alarm.o)
+                0x400013bc                activeAlarm
+                0x400013f8                alarm_string
+ COMMON         0x400013fe        0x6 lib/libpulse_os.a(battery_log.o)
+                0x400013fe                current_charge_state
+                0x400013ff                last_charge_state
+                0x40001400                last_event_num
+                0x40001402                batt_life
+                0x000013b4                _bss_len = SIZEOF (.bss)
+                0x40001404                . = ALIGN (0x4)
+                0x40001404                . = ALIGN (0x4)
+                0x40001404                _end = .
+                0x40001404                _bss_end__ = .
+                0x40001404                __bss_end__ = .
+                0x40001404                __end__ = .
+                0x40001404                PROVIDE (end, .)
+                0x00006ae5                PROVIDE (_initdata_src, LOADADDR (.data))
+                0x00000050                PROVIDE (_initdata_len, SIZEOF (.data))
+                0xe0024044                PROVIDE (alloword, 0xe0024044)
+OUTPUT(build/pulse_app elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x16 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crti.o
+ .ARM.attributes
+                0x00000016       0x32 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtbegin.o
+ .ARM.attributes
+                0x00000048       0x34 lib/obj/irq.o
+ .ARM.attributes
+                0x0000007c       0x34 lib/obj/kernel_struct.o
+ .ARM.attributes
+                0x000000b0       0x34 /tmp/ccTGWpMO.o
+ .ARM.attributes
+                0x000000e4       0x1a /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000000fe       0x18 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000116       0x34 lib/libkernel.a(uart.o)
+ .ARM.attributes
+                0x0000014a       0x34 lib/libkernel.a(timer.o)
+ .ARM.attributes
+                0x0000017e       0x34 lib/libkernel.a(watchdog.o)
+ .ARM.attributes
+                0x000001b2       0x34 lib/libkernel.a(printf.o)
+ .ARM.attributes
+                0x000001e6       0x34 lib/libkernel.a(font.o)
+ .ARM.attributes
+                0x0000021a       0x34 lib/libkernel.a(oled.o)
+ .ARM.attributes
+                0x0000024e       0x34 lib/libpulse_os.a(display.o)
+ .ARM.attributes
+                0x00000282       0x34 lib/libpulse_os.a(resource.o)
+ .ARM.attributes
+                0x000002b6       0x34 lib/libpulse_os.a(timer.o)
+ .ARM.attributes
+                0x000002ea       0x34 lib/libpulse_os.a(main.o)
+ .ARM.attributes
+                0x0000031e       0x34 lib/libpulse_os.a(alarm.o)
+ .ARM.attributes
+                0x00000352       0x34 lib/libpulse_os.a(battery_log.o)
+ .ARM.attributes
+                0x00000386       0x34 lib/libpulse_os.a(notification.o)
+ .ARM.attributes
+                0x000003ba       0x34 lib/libpulse_os.a(clock.o)
+ .ARM.attributes
+                0x000003ee       0x34 lib/libpulse_os.a(preferences.o)
+ .ARM.attributes
+                0x00000422       0x34 lib/libpulse_protocol.a(pp_dispatcher.o)
+ .ARM.attributes
+                0x00000456       0x34 lib/libpulse_protocol.a(pulse_protocol.o)
+ .ARM.attributes
+                0x0000048a       0x1a /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000004a4       0x34 lib/libbtstack.a(init_bc4.o)
+ .ARM.attributes
+                0x000004d8       0x34 lib/libbtstack.a(ubcsp.o)
+ .ARM.attributes
+                0x0000050c       0x34 lib/libbtstack.a(l2cap.o)
+ .ARM.attributes
+                0x00000540       0x34 lib/libbtstack.a(hci_transport_bcsp.o)
+ .ARM.attributes
+                0x00000574       0x34 lib/libbtstack.a(run_loop.o)
+ .ARM.attributes
+                0x000005a8       0x34 lib/libbtstack.a(hci.o)
+ .ARM.attributes
+                0x000005dc       0x34 lib/libbtstack.a(utils.o)
+ .ARM.attributes
+                0x00000610       0x34 lib/libbtstack.a(run_loop_embedded.o)
+ .ARM.attributes
+                0x00000644       0x34 lib/libbtstack.a(hci_cmds.o)
+ .ARM.attributes
+                0x00000678       0x34 lib/libbtstack.a(hci_dump.o)
+ .ARM.attributes
+                0x000006ac       0x34 lib/libbtstack.a(linked_list.o)
+ .ARM.attributes
+                0x000006e0       0x34 lib/libbtstack.a(l2cap_signaling.o)
+ .ARM.attributes
+                0x00000714       0x34 lib/libbtstack.a(btstack.o)
+ .ARM.attributes
+                0x00000748       0x34 lib/libbtstack.a(socket_connection_embedded.o)
+ .ARM.attributes
+                0x0000077c       0x34 lib/libkernel.a(battery.o)
+ .ARM.attributes
+                0x000007b0       0x34 lib/libkernel.a(bt.o)
+ .ARM.attributes
+                0x000007e4       0x34 lib/libkernel.a(linkkey_ps.o)
+ .ARM.attributes
+                0x00000818       0x34 lib/libkernel.a(button.o)
+ .ARM.attributes
+                0x0000084c       0x34 lib/libkernel.a(kernel.o)
+ .ARM.attributes
+                0x00000880       0x34 lib/libkernel.a(mem.o)
+ .ARM.attributes
+                0x000008b4       0x34 lib/libkernel.a(rtc.o)
+ .ARM.attributes
+                0x000008e8       0x34 lib/libkernel.a(spiflash.o)
+ .ARM.attributes
+                0x0000091c       0x34 lib/libkernel.a(vibe.o)
+ .ARM.attributes
+                0x00000950       0x32 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtend.o
+ .ARM.attributes
+                0x00000982       0x16 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtn.o
+
+.comment        0x00000000      0x739
+ .comment       0x00000000       0x2b lib/obj/irq.o
+ .comment       0x0000002b       0x2b lib/obj/kernel_struct.o
+ .comment       0x00000056       0x2b /tmp/ccTGWpMO.o
+ .comment       0x00000081       0x2b lib/libkernel.a(uart.o)
+ .comment       0x000000ac       0x2b lib/libkernel.a(timer.o)
+ .comment       0x000000d7       0x2b lib/libkernel.a(watchdog.o)
+ .comment       0x00000102       0x2b lib/libkernel.a(printf.o)
+ .comment       0x0000012d       0x2b lib/libkernel.a(font.o)
+ .comment       0x00000158       0x2b lib/libkernel.a(oled.o)
+ .comment       0x00000183       0x2b lib/libpulse_os.a(display.o)
+ .comment       0x000001ae       0x2b lib/libpulse_os.a(resource.o)
+ .comment       0x000001d9       0x2b lib/libpulse_os.a(timer.o)
+ .comment       0x00000204       0x2b lib/libpulse_os.a(main.o)
+ .comment       0x0000022f       0x2b lib/libpulse_os.a(alarm.o)
+ .comment       0x0000025a       0x2b lib/libpulse_os.a(battery_log.o)
+ .comment       0x00000285       0x2b lib/libpulse_os.a(notification.o)
+ .comment       0x000002b0       0x2b lib/libpulse_os.a(clock.o)
+ .comment       0x000002db       0x2b lib/libpulse_os.a(preferences.o)
+ .comment       0x00000306       0x2b lib/libpulse_protocol.a(pp_dispatcher.o)
+ .comment       0x00000331       0x2b lib/libpulse_protocol.a(pulse_protocol.o)
+ .comment       0x0000035c       0x2b lib/libbtstack.a(init_bc4.o)
+ .comment       0x00000387       0x2b lib/libbtstack.a(ubcsp.o)
+ .comment       0x000003b2       0x2b lib/libbtstack.a(l2cap.o)
+ .comment       0x000003dd       0x2b lib/libbtstack.a(hci_transport_bcsp.o)
+ .comment       0x00000408       0x2b lib/libbtstack.a(run_loop.o)
+ .comment       0x00000433       0x2b lib/libbtstack.a(hci.o)
+ .comment       0x0000045e       0x2b lib/libbtstack.a(utils.o)
+ .comment       0x00000489       0x2b lib/libbtstack.a(run_loop_embedded.o)
+ .comment       0x000004b4       0x2b lib/libbtstack.a(hci_cmds.o)
+ .comment       0x000004df       0x2b lib/libbtstack.a(hci_dump.o)
+ .comment       0x0000050a       0x2b lib/libbtstack.a(linked_list.o)
+ .comment       0x00000535       0x2b lib/libbtstack.a(l2cap_signaling.o)
+ .comment       0x00000560       0x2b lib/libbtstack.a(btstack.o)
+ .comment       0x0000058b       0x2b lib/libbtstack.a(socket_connection_embedded.o)
+ .comment       0x000005b6       0x2b lib/libkernel.a(battery.o)
+ .comment       0x000005e1       0x2b lib/libkernel.a(bt.o)
+ .comment       0x0000060c       0x2b lib/libkernel.a(linkkey_ps.o)
+ .comment       0x00000637       0x2b lib/libkernel.a(button.o)
+ .comment       0x00000662       0x2b lib/libkernel.a(kernel.o)
+ .comment       0x0000068d       0x2b lib/libkernel.a(mem.o)
+ .comment       0x000006b8       0x2b lib/libkernel.a(rtc.o)
+ .comment       0x000006e3       0x2b lib/libkernel.a(spiflash.o)
+ .comment       0x0000070e       0x2b lib/libkernel.a(vibe.o)
+
+.debug_abbrev   0x00000000      0x134
+ .debug_abbrev  0x00000000      0x134 /tmp/ccTGWpMO.o
+
+.debug_info     0x00000000      0x22c
+ .debug_info    0x00000000      0x22c /tmp/ccTGWpMO.o
+
+.debug_line     0x00000000      0x157
+ .debug_line    0x00000000      0x157 /tmp/ccTGWpMO.o
+
+.debug_loc      0x00000000       0xf7
+ .debug_loc     0x00000000       0xf7 /tmp/ccTGWpMO.o
+
+.debug_pubnames
+                0x00000000       0xd7
+ .debug_pubnames
+                0x00000000       0xd7 /tmp/ccTGWpMO.o
+
+.debug_aranges  0x00000000       0x58
+ .debug_aranges
+                0x00000000       0x58 /tmp/ccTGWpMO.o
+
+.debug_ranges   0x00000000       0x50
+ .debug_ranges  0x00000000       0x50 /tmp/ccTGWpMO.o
+
+.debug_str      0x00000000      0x20c
+ .debug_str     0x00000000      0x20c /tmp/ccTGWpMO.o
+                                0x245 (size before relaxing)
+
+.debug_frame    0x00000000      0x100
+ .debug_frame   0x00000000       0xc0 /tmp/ccTGWpMO.o
+ .debug_frame   0x000000c0       0x20 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_divsi3.o)
+ .debug_frame   0x000000e0       0x20 /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_udivsi3.o)
+
+Cross Reference Table
+
+Symbol                                            File
+RTC_MAGIC                                         lib/libkernel.a(rtc.o)
+_Jv_RegisterClasses                               /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtbegin.o
+__aeabi_idiv                                      /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_divsi3.o)
+                                                  lib/libpulse_os.a(main.o)
+                                                  lib/libkernel.a(oled.o)
+                                                  lib/libkernel.a(printf.o)
+__aeabi_idiv0                                     /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_dvmd_tls.o)
+                                                  /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_udivsi3.o)
+                                                  /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_divsi3.o)
+__aeabi_idivmod                                   /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_divsi3.o)
+                                                  lib/libkernel.a(printf.o)
+                                                  /tmp/ccTGWpMO.o
+__aeabi_ldiv0                                     /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_dvmd_tls.o)
+__aeabi_uidiv                                     /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_udivsi3.o)
+__aeabi_uidivmod                                  /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_udivsi3.o)
+                                                  lib/libkernel.a(rtc.o)
+                                                  lib/libkernel.a(bt.o)
+                                                  lib/libpulse_os.a(battery_log.o)
+__divsi3                                          /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_divsi3.o)
+__dso_handle                                      /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crtbegin.o
+__udivsi3                                         /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/libgcc.a(_udivsi3.o)
+_drawchar                                         lib/libkernel.a(font.o)
+_fini                                             /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crti.o
+_init                                             /home/ryan/software/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb/crti.o
+_initdata_len                                     lib/obj/kernel_struct.o
+_initdata_src                                     lib/obj/kernel_struct.o
+_spi_mem_cmd                                      lib/libkernel.a(spiflash.o)
+_spi_xfer                                         lib/libkernel.a(spiflash.o)
+                                                  lib/libpulse_os.a(main.o)
+activeAlarm                                       lib/libpulse_os.a(alarm.o)
+active_alert                                      lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+adc_battery_update                                lib/libkernel.a(battery.o)
+                                                  lib/libpulse_os.a(main.o)
+adc_done                                          lib/libkernel.a(battery.o)
+adc_init                                          lib/libkernel.a(battery.o)
+                                                  lib/libkernel.a(kernel.o)
+adc_loop                                          lib/libkernel.a(battery.o)
+adc_loop_auto                                     lib/libkernel.a(battery.o)
+                                                  lib/libpulse_os.a(main.o)
+alarm_string                                      lib/libpulse_os.a(alarm.o)
+allerta_main_app                                  lib/libpulse_os.a(main.o)
+alloword                                          lib/libkernel.a(watchdog.o)
+batt_life                                         lib/libpulse_os.a(battery_log.o)
+battery_log_clear                                 lib/libpulse_os.a(battery_log.o)
+battery_log_first_boot                            lib/libpulse_os.a(battery_log.o)
+                                                  lib/libkernel.a(rtc.o)
+battery_log_get_battery_life                      lib/libpulse_os.a(battery_log.o)
+                                                  lib/libpulse_os.a(main.o)
+battery_log_get_last_event                        lib/libpulse_os.a(battery_log.o)
+battery_log_init                                  lib/libpulse_os.a(battery_log.o)
+                                                  lib/libpulse_os.a(main.o)
+battery_log_is_logging                            lib/libpulse_os.a(battery_log.o)
+battery_log_number_of_events                      lib/libpulse_os.a(battery_log.o)
+                                                  lib/libpulse_os.a(main.o)
+battery_log_preserve_last_runtime                 lib/libpulse_os.a(battery_log.o)
+battery_log_retrieve_last_runtime                 lib/libpulse_os.a(battery_log.o)
+battery_log_set_last_event                        lib/libpulse_os.a(battery_log.o)
+battery_log_set_timestamp                         lib/libpulse_os.a(battery_log.o)
+                                                  lib/libpulse_os.a(main.o)
+battery_log_update                                lib/libpulse_os.a(battery_log.o)
+                                                  lib/libpulse_os.a(main.o)
+bc4_data_handler                                  lib/libbtstack.a(init_bc4.o)
+bc4_event_handler                                 lib/libbtstack.a(init_bc4.o)
+bc4_get_anafreq                                   lib/libbtstack.a(init_bc4.o)
+bc4_get_rand                                      lib/libbtstack.a(init_bc4.o)
+bc4_is_up                                         lib/libbtstack.a(init_bc4.o)
+                                                  lib/libkernel.a(uart.o)
+bc4_register_handlers                             lib/libbtstack.a(init_bc4.o)
+                                                  lib/libkernel.a(bt.o)
+bcsp_powerdown                                    lib/libbtstack.a(hci_transport_bcsp.o)
+bt_close                                          lib/libbtstack.a(btstack.o)
+bt_data_handler                                   lib/libkernel.a(bt.o)
+bt_disconnect                                     lib/libkernel.a(bt.o)
+bt_event_handler                                  lib/libkernel.a(bt.o)
+bt_flip_addr                                      lib/libbtstack.a(utils.o)
+                                                  lib/libkernel.a(bt.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+                                                  lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(l2cap.o)
+bt_get_addr                                       lib/libkernel.a(bt.o)
+                                                  lib/libpulse_os.a(main.o)
+bt_get_handle                                     lib/libkernel.a(bt.o)
+bt_get_link_key                                   lib/libkernel.a(linkkey_ps.o)
+                                                  lib/libkernel.a(bt.o)
+bt_get_pin                                        lib/libkernel.a(bt.o)
+                                                  lib/libpulse_os.a(main.o)
+bt_handler                                        lib/libpulse_os.a(main.o)
+bt_init                                           lib/libkernel.a(bt.o)
+                                                  lib/libkernel.a(kernel.o)
+bt_is_connected                                   lib/libkernel.a(bt.o)
+bt_lsr_copy                                       lib/libkernel.a(uart.o)
+bt_lsr_err                                        lib/libkernel.a(uart.o)
+bt_open                                           lib/libbtstack.a(btstack.o)
+                                                  lib/libkernel.a(bt.o)
+bt_print_addr                                     lib/libkernel.a(bt.o)
+bt_put_link_key                                   lib/libkernel.a(linkkey_ps.o)
+                                                  lib/libkernel.a(bt.o)
+bt_register_packet_handler                        lib/libbtstack.a(btstack.o)
+bt_register_wtf_handler                           lib/libbtstack.a(btstack.o)
+                                                  lib/libkernel.a(bt.o)
+bt_reset                                          lib/libkernel.a(bt.o)
+                                                  lib/libkernel.a(kernel.o)
+bt_run_loop                                       lib/libkernel.a(bt.o)
+                                                  lib/libpulse_os.a(main.o)
+bt_rx_hwm                                         lib/libkernel.a(uart.o)
+bt_rx_level                                       lib/libkernel.a(uart.o)
+bt_send_acl                                       lib/libbtstack.a(btstack.o)
+bt_send_break                                     lib/libkernel.a(uart.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+bt_send_cmd                                       lib/libbtstack.a(btstack.o)
+                                                  lib/libkernel.a(bt.o)
+bt_send_l2cap                                     lib/libbtstack.a(btstack.o)
+bt_set_pin                                        lib/libkernel.a(bt.o)
+bt_store_16                                       lib/libbtstack.a(utils.o)
+                                                  lib/libbtstack.a(l2cap_signaling.o)
+                                                  lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(l2cap.o)
+bt_store_32                                       lib/libbtstack.a(utils.o)
+bt_tx_hwm                                         lib/libkernel.a(uart.o)
+bt_tx_level                                       lib/libkernel.a(uart.o)
+bt_uart_irq                                       lib/libkernel.a(uart.o)
+                                                  lib/obj/irq.o
+bt_uart_irq_enable                                lib/libkernel.a(uart.o)
+                                                  lib/libkernel.a(bt.o)
+bt_use_tcp                                        lib/libbtstack.a(btstack.o)
+btstack_get_state                                 lib/libbtstack.a(hci_cmds.o)
+btstack_get_system_bluetooth_enabled              lib/libbtstack.a(hci_cmds.o)
+btstack_get_version                               lib/libbtstack.a(hci_cmds.o)
+btstack_set_acl_capture_mode                      lib/libbtstack.a(hci_cmds.o)
+btstack_set_power_mode                            lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+btstack_set_system_bluetooth_enabled              lib/libbtstack.a(hci_cmds.o)
+btstack_wtf                                       lib/libbtstack.a(btstack.o)
+                                                  lib/libbtstack.a(hci_transport_bcsp.o)
+button                                            lib/libkernel.a(button.o)
+                                                  lib/libpulse_os.a(main.o)
+button_handler                                    lib/libpulse_os.a(main.o)
+button_init                                       lib/libkernel.a(button.o)
+                                                  lib/libkernel.a(kernel.o)
+                                                  lib/libpulse_os.a(main.o)
+button_start_time                                 lib/libpulse_os.a(main.o)
+check_alarm                                       lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+cid                                               lib/libpulse_os.a(main.o)
+cli                                               lib/libkernel.a(watchdog.o)
+                                                  lib/libpulse_os.a(main.o)
+                                                  lib/libkernel.a(uart.o)
+cls                                               lib/libkernel.a(font.o)
+                                                  lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_os.a(display.o)
+connection_for_handle                             lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(l2cap.o)
+continuous_timer                                  lib/libpulse_os.a(main.o)
+crc8                                              lib/libbtstack.a(utils.o)
+crc8_calc                                         lib/libbtstack.a(utils.o)
+crc8_check                                        lib/libbtstack.a(utils.o)
+current_charge_state                              lib/libpulse_os.a(battery_log.o)
+dbg_get_uart                                      lib/libkernel.a(uart.o)
+dbg_printf                                        lib/libkernel.a(printf.o)
+                                                  lib/libbtstack.a(l2cap.o)
+                                                  lib/libpulse_os.a(preferences.o)
+                                                  lib/libpulse_os.a(main.o)
+dbg_putc                                          lib/libkernel.a(uart.o)
+dbg_puts                                          lib/libkernel.a(uart.o)
+                                                  lib/libkernel.a(printf.o)
+dbgfont                                           lib/libkernel.a(font.o)
+default_prefs                                     lib/libpulse_os.a(preferences.o)
+doze                                              lib/libkernel.a(watchdog.o)
+draw_box                                          /tmp/ccTGWpMO.o
+draw_box_update_timer                             /tmp/ccTGWpMO.o
+draw_date                                         lib/libpulse_os.a(preferences.o)
+                                                  lib/libpulse_os.a(main.o)
+draw_image                                        lib/libpulse_os.a(display.o)
+draw_top                                          lib/libpulse_os.a(preferences.o)
+                                                  lib/libpulse_os.a(main.o)
+during_brief_wakeup                               lib/libpulse_os.a(main.o)
+embedded_add_data_source                          lib/libbtstack.a(run_loop_embedded.o)
+embedded_add_timer                                lib/libbtstack.a(run_loop_embedded.o)
+embedded_dump_timer                               lib/libbtstack.a(run_loop_embedded.o)
+embedded_execute                                  lib/libbtstack.a(run_loop_embedded.o)
+embedded_init                                     lib/libbtstack.a(run_loop_embedded.o)
+embedded_remove_data_source                       lib/libbtstack.a(run_loop_embedded.o)
+embedded_remove_timer                             lib/libbtstack.a(run_loop_embedded.o)
+find_free_timer                                   lib/libpulse_os.a(timer.o)
+font_init                                         lib/libkernel.a(font.o)
+                                                  lib/libkernel.a(kernel.o)
+font_setpos                                       lib/libkernel.a(font.o)
+foo_func                                          lib/libkernel.a(uart.o)
+get_resource_metadata                             lib/libpulse_os.a(resource.o)
+                                                  lib/libpulse_os.a(display.o)
+get_rtc_hour                                      lib/libkernel.a(rtc.o)
+get_rtc_minute                                    lib/libkernel.a(rtc.o)
+get_serial_no                                     lib/libkernel.a(bt.o)
+get_time_ms                                       lib/libbtstack.a(utils.o)
+                                                  lib/libbtstack.a(hci.o)
+get_uart                                          lib/libkernel.a(uart.o)
+                                                  lib/libbtstack.a(ubcsp.o)
+hci_accept_connection_request                     lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libbtstack.a(hci.o)
+hci_authentication_requested                      lib/libbtstack.a(hci_cmds.o)
+hci_create_cmd                                    lib/libbtstack.a(hci_cmds.o)
+hci_create_cmd_internal                           lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libbtstack.a(btstack.o)
+                                                  lib/libbtstack.a(hci.o)
+hci_create_connection                             lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(l2cap.o)
+hci_create_connection_cancel                      lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libbtstack.a(l2cap.o)
+hci_delete_stored_link_key                        lib/libbtstack.a(hci_cmds.o)
+hci_disconnect                                    lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+                                                  lib/libbtstack.a(l2cap.o)
+hci_dump_close                                    lib/libbtstack.a(hci_dump.o)
+hci_dump_open                                     lib/libbtstack.a(hci_dump.o)
+hci_dump_packet                                   lib/libbtstack.a(hci_dump.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+                                                  lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(hci_transport_bcsp.o)
+                                                  lib/libbtstack.a(l2cap.o)
+hci_emit_btstack_version                          lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+hci_emit_connection_complete                      lib/libbtstack.a(hci.o)
+hci_emit_hci_open_failed                          lib/libbtstack.a(hci.o)
+hci_emit_l2cap_check_timeout                      lib/libbtstack.a(hci.o)
+hci_emit_nr_connections_changed                   lib/libbtstack.a(hci.o)
+hci_emit_state                                    lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+hci_emit_system_bluetooth_enabled                 lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+hci_exit_sniff_mode                               lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+hci_host_buffer_size                              lib/libbtstack.a(hci_cmds.o)
+hci_init                                          lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+hci_inquiry                                       lib/libbtstack.a(hci_cmds.o)
+hci_inquiry_cancel                                lib/libbtstack.a(hci_cmds.o)
+hci_link_key_request_negative_reply               lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+hci_link_key_request_reply                        lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+hci_pin_code_request_reply                        lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+hci_power_control                                 lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+hci_qos_setup                                     lib/libbtstack.a(hci_cmds.o)
+hci_read_bd_addr                                  lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libbtstack.a(hci.o)
+hci_read_link_policy_settings                     lib/libbtstack.a(hci_cmds.o)
+hci_read_link_supervision_timeout                 lib/libbtstack.a(hci_cmds.o)
+hci_read_scan_enable                              lib/libbtstack.a(hci_cmds.o)
+hci_register_acl_packet_handler                   lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(l2cap.o)
+hci_register_event_packet_handler                 lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(l2cap.o)
+hci_remote_name_request                           lib/libbtstack.a(hci_cmds.o)
+hci_remote_name_request_cancel                    lib/libbtstack.a(hci_cmds.o)
+hci_reset                                         lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libbtstack.a(hci.o)
+hci_role_discovery                                lib/libbtstack.a(hci_cmds.o)
+hci_run                                           lib/libbtstack.a(hci.o)
+hci_send_acl_packet                               lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+                                                  lib/libbtstack.a(l2cap.o)
+hci_send_cmd                                      lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(l2cap.o)
+hci_send_cmd_packet                               lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+hci_set_event_mask                                lib/libbtstack.a(hci_cmds.o)
+hci_sniff_mode                                    lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+hci_switch_role_command                           lib/libbtstack.a(hci_cmds.o)
+hci_transport_bcsp_instance                       lib/libbtstack.a(hci_transport_bcsp.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+hci_write_authentication_enable                   lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+hci_write_class_of_device                         lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+hci_write_default_link_policy                     lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+hci_write_extended_inquiry_response               lib/libbtstack.a(hci_cmds.o)
+hci_write_inquiry_mode                            lib/libbtstack.a(hci_cmds.o)
+hci_write_link_key                                lib/libbtstack.a(hci_cmds.o)
+hci_write_link_policy_settings                    lib/libbtstack.a(hci_cmds.o)
+hci_write_link_supervision_timeout                lib/libbtstack.a(hci_cmds.o)
+hci_write_local_name                              lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+hci_write_page_timeout                            lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libbtstack.a(hci.o)
+hci_write_scan_enable                             lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libbtstack.a(hci.o)
+hci_write_simple_pairing_mode                     lib/libbtstack.a(hci_cmds.o)
+hexdump                                           lib/libbtstack.a(utils.o)
+hold_to_reset_time                                lib/libpulse_os.a(main.o)
+init_alarm                                        lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+init_bc4                                          lib/libbtstack.a(init_bc4.o)
+                                                  lib/libkernel.a(bt.o)
+init_bc4_btstack                                  lib/libbtstack.a(init_bc4.o)
+                                                  lib/libkernel.a(bt.o)
+init_preferences                                  lib/libpulse_os.a(preferences.o)
+                                                  lib/libpulse_os.a(main.o)
+inpulse_irq                                       lib/obj/irq.o
+                                                  lib/libkernel.a(uart.o)
+is_connected                                      lib/libkernel.a(bt.o)
+is_spiflash_sector_safe                           lib/libpulse_os.a(main.o)
+kernel_init                                       lib/libkernel.a(kernel.o)
+                                                  lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+kernel_init_oled                                  lib/libkernel.a(kernel.o)
+                                                  lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+kernel_struct                                     lib/obj/kernel_struct.o
+kernel_wtf                                        lib/libkernel.a(kernel.o)
+                                                  lib/libkernel.a(bt.o)
+l2cap_accept_connection                           lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+l2cap_accept_connection_internal                  lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+l2cap_acl_handler                                 lib/libbtstack.a(l2cap.o)
+l2cap_close_connection                            lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+l2cap_create_channel                              lib/libbtstack.a(hci_cmds.o)
+l2cap_create_channel_internal                     lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+l2cap_create_signaling_internal                   lib/libbtstack.a(l2cap_signaling.o)
+                                                  lib/libbtstack.a(l2cap.o)
+l2cap_decline_connection                          lib/libbtstack.a(hci_cmds.o)
+l2cap_decline_connection_internal                 lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+l2cap_disconnect                                  lib/libbtstack.a(hci_cmds.o)
+l2cap_disconnect_internal                         lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+l2cap_emit_channel_closed                         lib/libbtstack.a(l2cap.o)
+l2cap_emit_channel_opened                         lib/libbtstack.a(l2cap.o)
+l2cap_emit_connection_request                     lib/libbtstack.a(l2cap.o)
+l2cap_event_handler                               lib/libbtstack.a(l2cap.o)
+l2cap_finialize_channel_close                     lib/libbtstack.a(l2cap.o)
+l2cap_get_channel_for_local_cid                   lib/libbtstack.a(l2cap.o)
+l2cap_get_service                                 lib/libbtstack.a(l2cap.o)
+l2cap_init                                        lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+l2cap_next_local_cid                              lib/libbtstack.a(l2cap_signaling.o)
+                                                  lib/libbtstack.a(l2cap.o)
+l2cap_next_sig_id                                 lib/libbtstack.a(l2cap_signaling.o)
+                                                  lib/libbtstack.a(l2cap.o)
+l2cap_register_data_packet_handler                lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+l2cap_register_event_packet_handler               lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+l2cap_register_service                            lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libkernel.a(bt.o)
+l2cap_register_service_internal                   lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+l2cap_send_internal                               lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+                                                  lib/libpulse_os.a(main.o)
+l2cap_send_signaling_packet                       lib/libbtstack.a(l2cap.o)
+l2cap_set_capture_connection                      lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+l2cap_signaling_handler                           lib/libbtstack.a(l2cap.o)
+l2cap_unregister_service                          lib/libbtstack.a(hci_cmds.o)
+l2cap_unregister_service_internal                 lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+last_charge_state                                 lib/libpulse_os.a(battery_log.o)
+last_event_num                                    lib/libpulse_os.a(battery_log.o)
+last_image_cache                                  lib/libpulse_os.a(display.o)
+last_image_meta                                   lib/libpulse_os.a(display.o)
+linked_item_get_user                              lib/libbtstack.a(linked_list.o)
+                                                  lib/libbtstack.a(hci.o)
+linked_item_set_user                              lib/libbtstack.a(linked_list.o)
+                                                  lib/libbtstack.a(hci.o)
+linked_list_add                                   lib/libbtstack.a(linked_list.o)
+                                                  lib/libbtstack.a(run_loop_embedded.o)
+                                                  lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(l2cap.o)
+linked_list_remove                                lib/libbtstack.a(linked_list.o)
+                                                  lib/libbtstack.a(run_loop_embedded.o)
+                                                  lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(l2cap.o)
+lpc_doze                                          lib/libpulse_os.a(main.o)
+main                                              lib/libpulse_os.a(main.o)
+                                                  lib/obj/kernel_struct.o
+main_app_handle_button_down                       /tmp/ccTGWpMO.o
+                                                  lib/libpulse_os.a(main.o)
+main_app_handle_button_up                         /tmp/ccTGWpMO.o
+                                                  lib/libpulse_os.a(main.o)
+main_app_handle_doz                               /tmp/ccTGWpMO.o
+                                                  lib/libpulse_os.a(main.o)
+main_app_handle_hardware_update                   /tmp/ccTGWpMO.o
+                                                  lib/libpulse_os.a(main.o)
+main_app_init                                     /tmp/ccTGWpMO.o
+                                                  lib/libpulse_os.a(main.o)
+main_app_loop                                     /tmp/ccTGWpMO.o
+                                                  lib/libpulse_os.a(main.o)
+mdelay                                            lib/libkernel.a(timer.o)
+                                                  lib/libkernel.a(vibe.o)
+                                                  lib/libkernel.a(bt.o)
+                                                  lib/libkernel.a(battery.o)
+                                                  lib/libbtstack.a(hci_transport_bcsp.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+                                                  lib/libpulse_os.a(main.o)
+                                                  lib/libkernel.a(uart.o)
+memcmp                                            lib/libkernel.a(mem.o)
+                                                  lib/libkernel.a(linkkey_ps.o)
+                                                  lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(l2cap.o)
+memcpy                                            lib/libkernel.a(mem.o)
+                                                  lib/libkernel.a(linkkey_ps.o)
+                                                  lib/libkernel.a(bt.o)
+                                                  lib/libbtstack.a(l2cap_signaling.o)
+                                                  lib/libbtstack.a(hci_cmds.o)
+                                                  lib/libbtstack.a(hci.o)
+                                                  lib/libbtstack.a(hci_transport_bcsp.o)
+                                                  lib/libbtstack.a(l2cap.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+                                                  lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_os.a(resource.o)
+                                                  lib/libpulse_os.a(display.o)
+memset                                            lib/libkernel.a(mem.o)
+                                                  lib/libkernel.a(bt.o)
+                                                  lib/libbtstack.a(utils.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+                                                  lib/libpulse_os.a(notification.o)
+                                                  lib/libpulse_os.a(timer.o)
+minOfLastAlarmCheck                               lib/libpulse_os.a(main.o)
+notification_init                                 lib/libpulse_os.a(notification.o)
+                                                  lib/libpulse_os.a(main.o)
+oled_cls                                          lib/libkernel.a(oled.o)
+                                                  lib/libpulse_os.a(preferences.o)
+                                                  lib/libpulse_os.a(main.o)
+                                                  lib/libkernel.a(font.o)
+oled_ctl                                          lib/libkernel.a(oled.o)
+                                                  lib/libpulse_os.a(main.o)
+oled_init                                         lib/libkernel.a(oled.o)
+                                                  lib/libkernel.a(kernel.o)
+oled_prep_display                                 lib/libkernel.a(oled.o)
+                                                  lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+oled_set_xy                                       lib/libkernel.a(oled.o)
+                                                  lib/libpulse_os.a(display.o)
+                                                  lib/libkernel.a(font.o)
+oled_write                                        lib/libkernel.a(oled.o)
+                                                  lib/libkernel.a(kernel.o)
+                                                  lib/libpulse_os.a(display.o)
+                                                  lib/libkernel.a(font.o)
+os_allerta_main_app                               lib/libpulse_os.a(main.o)
+os_fire_callback                                  lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_os.a(alarm.o)
+os_handle_non_pp_bt_data                          lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_protocol.a(pp_dispatcher.o)
+os_hardware_event                                 lib/libpulse_os.a(main.o)
+                                                  lib/libkernel.a(bt.o)
+os_preferences_updated                            lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_os.a(preferences.o)
+os_running_allerta_main_app                       lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_protocol.a(pp_dispatcher.o)
+                                                  lib/libpulse_os.a(alarm.o)
+pll                                               lib/libpulse_os.a(main.o)
+populate_notification                             lib/libpulse_os.a(notification.o)
+power_down_timer_id                               lib/libpulse_os.a(main.o)
+powerctl_init                                     lib/libkernel.a(watchdog.o)
+                                                  lib/libkernel.a(kernel.o)
+pp_decode_message                                 lib/libpulse_protocol.a(pulse_protocol.o)
+                                                  lib/libpulse_protocol.a(pp_dispatcher.o)
+pp_decode_notification_strings                    lib/libpulse_protocol.a(pulse_protocol.o)
+                                                  lib/libpulse_protocol.a(pp_dispatcher.o)
+pp_decode_spiflash                                lib/libpulse_protocol.a(pulse_protocol.o)
+                                                  lib/libpulse_protocol.a(pp_dispatcher.o)
+pp_dispatcher                                     lib/libpulse_protocol.a(pp_dispatcher.o)
+                                                  lib/libpulse_os.a(main.o)
+pp_erase_element                                  lib/libpulse_os.a(main.o)
+pp_handler_command                                lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_protocol.a(pp_dispatcher.o)
+pp_handler_error                                  lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_protocol.a(pp_dispatcher.o)
+pp_handler_notification                           lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_protocol.a(pp_dispatcher.o)
+pp_handler_spiflash                               lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_protocol.a(pp_dispatcher.o)
+pp_query_version_response                         lib/libpulse_os.a(main.o)
+print_bd_addr                                     lib/libbtstack.a(utils.o)
+print_preferences                                 lib/libpulse_os.a(preferences.o)
+print_time                                        lib/libpulse_os.a(main.o)
+printf                                            lib/libkernel.a(printf.o)
+                                                  lib/libkernel.a(bt.o)
+                                                  lib/libbtstack.a(utils.o)
+                                                  lib/libbtstack.a(hci_transport_bcsp.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+                                                  lib/libpulse_os.a(main.o)
+                                                  /tmp/ccTGWpMO.o
+pulse_battery_get_charge_state                    lib/libkernel.a(battery.o)
+                                                  lib/libpulse_os.a(battery_log.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_blank_canvas                                lib/libpulse_os.a(display.o)
+pulse_cancel_timer                                lib/libpulse_os.a(timer.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_cancel_vibe                                 lib/libpulse_os.a(main.o)
+pulse_draw_black_box                              lib/libpulse_os.a(display.o)
+pulse_draw_image                                  lib/libpulse_os.a(display.o)
+pulse_draw_image_with_transparency                lib/libpulse_os.a(display.o)
+pulse_draw_point24                                lib/libpulse_os.a(display.o)
+                                                  /tmp/ccTGWpMO.o
+pulse_get_alarm                                   lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_get_alarm_enabled                           lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_get_alarm_msg                               lib/libpulse_os.a(alarm.o)
+pulse_get_alarm_string                            lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_get_image_info                              lib/libpulse_os.a(display.o)
+pulse_get_millis                                  lib/libpulse_os.a(timer.o)
+pulse_get_next_timer_timeout                      lib/libpulse_os.a(timer.o)
+pulse_get_notification                            lib/libpulse_os.a(notification.o)
+pulse_get_notification_list_by_type               lib/libpulse_os.a(notification.o)
+pulse_get_preference                              lib/libpulse_os.a(preferences.o)
+                                                  lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_get_time_date                               lib/libpulse_os.a(clock.o)
+                                                  lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_get_time_string                             lib/libpulse_os.a(clock.o)
+pulse_image_valid                                 lib/libpulse_os.a(display.o)
+pulse_mdelay                                      lib/libpulse_os.a(main.o)
+pulse_oled_set_brightness                         lib/libkernel.a(oled.o)
+                                                  lib/libpulse_os.a(preferences.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_os_init                                     lib/libpulse_os.a(main.o)
+pulse_register_callback                           lib/libpulse_os.a(main.o)
+pulse_register_timer                              lib/libpulse_os.a(timer.o)
+                                                  lib/libpulse_os.a(main.o)
+                                                  /tmp/ccTGWpMO.o
+pulse_send_bluetooth_int                          lib/libpulse_os.a(main.o)
+pulse_set_alarm                                   lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_set_bluetooth_sniff                         lib/libkernel.a(bt.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_set_draw_window                             lib/libpulse_os.a(display.o)
+                                                  /tmp/ccTGWpMO.o
+pulse_set_preference                              lib/libpulse_os.a(preferences.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_show_hw_info                                lib/libpulse_os.a(main.o)
+pulse_timer_init                                  lib/libpulse_os.a(timer.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_timer_loop                                  lib/libpulse_os.a(timer.o)
+                                                  lib/libpulse_os.a(main.o)
+pulse_update_power_down_timer                     lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_protocol.a(pp_dispatcher.o)
+                                                  lib/libpulse_os.a(alarm.o)
+push_queue                                        lib/libpulse_os.a(notification.o)
+put_uart                                          lib/libkernel.a(uart.o)
+                                                  lib/libbtstack.a(ubcsp.o)
+putc                                              lib/libkernel.a(font.o)
+                                                  lib/libpulse_os.a(main.o)
+puts                                              lib/libkernel.a(font.o)
+                                                  lib/libpulse_os.a(main.o)
+                                                  lib/libkernel.a(printf.o)
+register_bt_data_handler                          lib/libkernel.a(bt.o)
+                                                  lib/libpulse_os.a(main.o)
+registeredActionCallbacks                         lib/libpulse_os.a(main.o)
+reset                                             lib/libkernel.a(watchdog.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+                                                  lib/libpulse_os.a(main.o)
+reset_was_wd                                      lib/libkernel.a(watchdog.o)
+rtc_clear_alarm                                   lib/libkernel.a(rtc.o)
+rtc_ctl                                           lib/libkernel.a(rtc.o)
+rtc_get_time                                      lib/libkernel.a(rtc.o)
+                                                  lib/libpulse_os.a(clock.o)
+rtc_get_time_string                               lib/libkernel.a(rtc.o)
+                                                  lib/libpulse_os.a(clock.o)
+                                                  lib/libpulse_os.a(main.o)
+rtc_init                                          lib/libkernel.a(rtc.o)
+                                                  lib/libkernel.a(kernel.o)
+rtc_set_alarm                                     lib/libkernel.a(rtc.o)
+                                                  lib/libpulse_os.a(main.o)
+rtc_set_time                                      lib/libkernel.a(rtc.o)
+                                                  lib/libpulse_os.a(main.o)
+run_loop_add_data_source                          lib/libbtstack.a(run_loop.o)
+                                                  lib/libbtstack.a(hci_transport_bcsp.o)
+run_loop_add_timer                                lib/libbtstack.a(run_loop.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+                                                  lib/libbtstack.a(hci.o)
+run_loop_assert                                   lib/libbtstack.a(run_loop.o)
+run_loop_embedded                                 lib/libbtstack.a(run_loop_embedded.o)
+                                                  lib/libbtstack.a(run_loop.o)
+run_loop_execute                                  lib/libbtstack.a(run_loop.o)
+                                                  lib/libkernel.a(bt.o)
+run_loop_init                                     lib/libbtstack.a(run_loop.o)
+                                                  lib/libkernel.a(bt.o)
+run_loop_remove_data_source                       lib/libbtstack.a(run_loop.o)
+                                                  lib/libbtstack.a(hci_transport_bcsp.o)
+run_loop_remove_timer                             lib/libbtstack.a(run_loop.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+                                                  lib/libbtstack.a(hci.o)
+run_loop_set_timer                                lib/libbtstack.a(run_loop.o)
+                                                  lib/libbtstack.a(socket_connection_embedded.o)
+                                                  lib/libbtstack.a(hci.o)
+run_loop_timer_compare                            lib/libbtstack.a(run_loop.o)
+                                                  lib/libbtstack.a(run_loop_embedded.o)
+run_loop_timer_dump                               lib/libbtstack.a(run_loop.o)
+run_loop_timeval_compare                          lib/libbtstack.a(run_loop.o)
+set_oled_brightness                               lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_os.a(alarm.o)
+sig_seq_nr                                        lib/libbtstack.a(l2cap_signaling.o)
+size_of_firmware                                  lib/libpulse_os.a(main.o)
+size_of_resources                                 lib/libpulse_os.a(main.o)
+skip_atou                                         lib/libkernel.a(printf.o)
+socket_connection_close_null                      lib/libbtstack.a(socket_connection_embedded.o)
+socket_connection_close_tcp                       lib/libbtstack.a(socket_connection_embedded.o)
+                                                  lib/libbtstack.a(btstack.o)
+socket_connection_close_unix                      lib/libbtstack.a(socket_connection_embedded.o)
+socket_connection_create_launchd                  lib/libbtstack.a(socket_connection_embedded.o)
+socket_connection_create_tcp                      lib/libbtstack.a(socket_connection_embedded.o)
+socket_connection_create_unix                     lib/libbtstack.a(socket_connection_embedded.o)
+socket_connection_free_connection                 lib/libbtstack.a(socket_connection_embedded.o)
+socket_connection_hci_process                     lib/libbtstack.a(socket_connection_embedded.o)
+socket_connection_init_statemachine               lib/libbtstack.a(socket_connection_embedded.o)
+socket_connection_launchd_register_fd_array       lib/libbtstack.a(socket_connection_embedded.o)
+socket_connection_open_null                       lib/libbtstack.a(socket_connection_embedded.o)
+socket_connection_open_tcp                        lib/libbtstack.a(socket_connection_embedded.o)
+                                                  lib/libbtstack.a(btstack.o)
+socket_connection_open_unix                       lib/libbtstack.a(socket_connection_embedded.o)
+                                                  lib/libbtstack.a(btstack.o)
+socket_connection_register_new_connection         lib/libbtstack.a(socket_connection_embedded.o)
+socket_connection_register_packet_callback        lib/libbtstack.a(socket_connection_embedded.o)
+                                                  lib/libbtstack.a(btstack.o)
+socket_connection_send_packet                     lib/libbtstack.a(socket_connection_embedded.o)
+                                                  lib/libbtstack.a(btstack.o)
+socket_connection_send_packet_all                 lib/libbtstack.a(socket_connection_embedded.o)
+socket_connection_set_non_blocking                lib/libbtstack.a(socket_connection_embedded.o)
+source_cid                                        lib/libbtstack.a(l2cap_signaling.o)
+spiflash_busy                                     lib/libkernel.a(spiflash.o)
+spiflash_checksum                                 lib/libkernel.a(spiflash.o)
+                                                  lib/libpulse_os.a(main.o)
+spiflash_copy                                     lib/libkernel.a(spiflash.o)
+spiflash_erase_block                              lib/libkernel.a(spiflash.o)
+spiflash_erase_chip                               lib/libkernel.a(spiflash.o)
+spiflash_erase_from_sector_to_sector              lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_os.a(notification.o)
+spiflash_erase_sector                             lib/libkernel.a(spiflash.o)
+                                                  lib/libpulse_os.a(battery_log.o)
+                                                  lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+spiflash_erase_sector_at_addr                     lib/libkernel.a(spiflash.o)
+                                                  lib/libkernel.a(linkkey_ps.o)
+                                                  lib/libpulse_os.a(preferences.o)
+spiflash_getid                                    lib/libkernel.a(spiflash.o)
+spiflash_getstatus                                lib/libkernel.a(spiflash.o)
+spiflash_init                                     lib/libkernel.a(spiflash.o)
+                                                  lib/libkernel.a(kernel.o)
+                                                  lib/libpulse_os.a(battery_log.o)
+spiflash_read                                     lib/libkernel.a(spiflash.o)
+                                                  lib/libkernel.a(linkkey_ps.o)
+                                                  lib/libpulse_os.a(preferences.o)
+                                                  lib/libpulse_os.a(notification.o)
+                                                  lib/libpulse_os.a(battery_log.o)
+                                                  lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_os.a(resource.o)
+                                                  lib/libpulse_os.a(display.o)
+spiflash_set_wren                                 lib/libkernel.a(spiflash.o)
+                                                  lib/libkernel.a(linkkey_ps.o)
+                                                  lib/libpulse_os.a(preferences.o)
+                                                  lib/libpulse_os.a(notification.o)
+                                                  lib/libpulse_os.a(battery_log.o)
+                                                  lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+spiflash_setstatus                                lib/libkernel.a(spiflash.o)
+spiflash_write                                    lib/libkernel.a(spiflash.o)
+                                                  lib/libkernel.a(linkkey_ps.o)
+                                                  lib/libpulse_os.a(preferences.o)
+                                                  lib/libpulse_os.a(notification.o)
+                                                  lib/libpulse_os.a(battery_log.o)
+                                                  lib/libpulse_os.a(alarm.o)
+                                                  lib/libpulse_os.a(main.o)
+sprintf                                           lib/libkernel.a(printf.o)
+                                                  lib/libkernel.a(rtc.o)
+                                                  lib/libkernel.a(bt.o)
+                                                  lib/libpulse_os.a(alarm.o)
+sscan_bd_addr                                     lib/libbtstack.a(utils.o)
+static_resp_int                                   lib/libpulse_os.a(main.o)
+sti                                               lib/libkernel.a(watchdog.o)
+                                                  lib/libpulse_os.a(main.o)
+                                                  lib/libkernel.a(uart.o)
+store_notification                                lib/libpulse_os.a(notification.o)
+                                                  lib/libpulse_os.a(main.o)
+tcount                                            lib/libkernel.a(timer.o)
+test_linked_list                                  lib/libbtstack.a(linked_list.o)
+time_string                                       lib/libkernel.a(rtc.o)
+timer_get_ms                                      lib/libkernel.a(timer.o)
+                                                  lib/libbtstack.a(utils.o)
+                                                  lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_os.a(timer.o)
+timer_get_offset                                  lib/libkernel.a(timer.o)
+timer_init                                        lib/libkernel.a(timer.o)
+                                                  lib/libkernel.a(kernel.o)
+timer_set_offset                                  lib/libkernel.a(timer.o)
+uart_hw_init                                      lib/libkernel.a(uart.o)
+uart_init                                         lib/libkernel.a(uart.o)
+                                                  lib/libkernel.a(kernel.o)
+ubcsp_initialize                                  lib/libbtstack.a(ubcsp.o)
+                                                  lib/libbtstack.a(hci_transport_bcsp.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+ubcsp_poll                                        lib/libbtstack.a(ubcsp.o)
+                                                  lib/libbtstack.a(hci_transport_bcsp.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+ubcsp_receive_packet                              lib/libbtstack.a(ubcsp.o)
+                                                  lib/libbtstack.a(hci_transport_bcsp.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+ubcsp_send_packet                                 lib/libbtstack.a(ubcsp.o)
+                                                  lib/libbtstack.a(hci_transport_bcsp.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+unsafe_spiflash_ops_enabled                       lib/libpulse_os.a(main.o)
+vibe                                              lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_os.a(alarm.o)
+vibe_continuous                                   lib/libpulse_os.a(main.o)
+                                                  lib/libpulse_os.a(alarm.o)
+vibe_double                                       lib/libkernel.a(vibe.o)
+vibe_init                                         lib/libkernel.a(vibe.o)
+                                                  lib/libkernel.a(kernel.o)
+vibe_off                                          lib/libkernel.a(vibe.o)
+                                                  lib/libpulse_os.a(main.o)
+vibe_on                                           lib/libkernel.a(vibe.o)
+                                                  lib/libpulse_os.a(main.o)
+vibe_single                                       lib/libkernel.a(vibe.o)
+vibe_timer                                        lib/libpulse_os.a(main.o)
+vibe_triplet                                      lib/libkernel.a(vibe.o)
+vic_init                                          lib/libkernel.a(timer.o)
+                                                  lib/libkernel.a(kernel.o)
+vsprintf                                          lib/libkernel.a(printf.o)
+wd_feed                                           lib/libkernel.a(watchdog.o)
+                                                  lib/libkernel.a(spiflash.o)
+                                                  lib/libbtstack.a(init_bc4.o)
+                                                  lib/libpulse_os.a(main.o)
+wd_force_reset                                    lib/libkernel.a(watchdog.o)

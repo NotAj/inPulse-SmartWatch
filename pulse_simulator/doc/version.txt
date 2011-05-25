@@ -1,0 +1,24 @@
+CHANGE LOG
+
+Simulator Version 1.1.2 (Apr 8, 2011)
+- added resourcepacker
+
+Simulator Version 1.1.1 (Mar 29, 2011)
+- based on Pulse SDK Version 1.1.0
+- fixed black background bug for text widgets
+
+Simulator Version 1.1.0 (Feb 28, 2011)
+- based on Pulse SDK Version 1.1.0
+- added pulse_oled_set_brightness() functionality
+
+Simulator Version 1.0.2 (Feb 21, 2011)
+- based on Pulse SDK Version 1.0.0
+- fixed garbled printf (to simualator screen) bug introduced in last release
+
+Simulator Version 1.0.1 (Feb 17, 2011)
+- based on Pulse SDK Version 1.0.0
+- fixed pulse_draw_point24() wrap around bug
+
+Simulator Version 1.0.0 (Feb 15, 2011)
+- based on Pulse SDK Version 1.0.0
+- first release

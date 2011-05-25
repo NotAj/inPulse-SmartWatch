@@ -1,0 +1,20 @@
+CHANGE LOG
+
+Pulse SDK Version 1.1.2 (Apr 8, 2011)
+- reinstated old compileandload script due copatability issues on different platforms (-n still fixed)
+
+Pulse SDK Version 1.1.1 (Mar 29, 2011)
+- fixed bug with alarm putting watch to sleep
+- fixed compileandload for -n in vlf
+- added makefile for local compiling on linux
+
+Pulse SDK Version 1.1.0 (Feb 28, 2011)
+- added pulse_set_alarm() and pulse_get_alarm() functions that allow an across-reset persistent
+  alarm that will also wake the processor from doze.
+  See /pulse_sdk/examples/api_examples/alarm_wake_processor.c for details.
+
+Pulse SDK Version 1.0.1 (Feb 17, 2011)
+- fixed config error: Ping Stat python app couldn't run
+
+Pulse SDK Version 1.0.0 (Feb 15, 2011)
+- first release
