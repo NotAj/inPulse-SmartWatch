@@ -19,7 +19,7 @@ PULSE_LIBS=-lapp_common -lpulse_os -lpulse_protocol -lpulse_widgets
 EXTERNAL_LIBS=-lgtk-x11-2.0
 
 CC=gcc
-CFLAGS=-I$(INCLUDEDIR) -std=gnu99 -g -Wall $(OBJS) -L$(LIBDIR) -D PULSE_SIMULATOR
+CFLAGS=-I$(INCLUDEDIR) -std=gnu99 -g -Wall -m32 $(OBJS) -L$(LIBDIR) -D PULSE_SIMULATOR
 
 pulse_app:
 	$(CC) -o $(BUILDDIR)/$@ $^ $(CFLAGS) $(PULSE_LIBS) $(EXTERNAL_LIBS) $(SRCS)
